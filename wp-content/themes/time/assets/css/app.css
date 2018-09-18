@@ -1,0 +1,22 @@
+/* line 1, ../sass/app.scss */
+.clearfix {
+  background: #fff !important;
+}
+/* line 6, ../sass/app.scss */
+.clearfix .navbar-header .slider {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 230px;
+  height: 40px;
+}
+/* line 20, ../sass/app.scss */
+.clearfix .wt_nav_top .menu .menu-item span {
+  font-family: Poppins;
+  font-size: 13px;
+  color: #393939;
+}
+/* line 25, ../sass/app.scss */
+.clearfix .wt_nav_top .menu .menu-item span:hover {
+  color: #428bca;
+}

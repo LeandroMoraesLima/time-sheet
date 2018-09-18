@@ -1,0 +1,33 @@
+.clearfix{
+	background: #fff !important;
+
+	.navbar-header{
+
+		.slider{
+			background-position: center;
+		    background-repeat: no-repeat;
+		    background-size: auto;
+		    width: 230px;
+		    height: 40px;			
+		}	    
+	}
+	.wt_nav_top{
+
+		.menu{
+			
+			.menu-item{
+
+				span{
+					font-family: Poppins;
+				    font-size: 13px;
+				    color: #393939;
+
+				    &:hover{
+				    	color: #428bca;
+				    }
+				}
+
+			}
+		}
+	}
+}
