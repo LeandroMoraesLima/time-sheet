@@ -1,22 +1,306 @@
-/* line 1, ../sass/app.scss */
-.clearfix {
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,800");
+/* line 1, ../sass/website/home/_header.scss */
+#wt_header {
   background: #fff !important;
 }
-/* line 6, ../sass/app.scss */
-.clearfix .navbar-header .slider {
+/* line 6, ../sass/website/home/_header.scss */
+#wt_header .navbar-header .slider {
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto;
   width: 230px;
   height: 40px;
 }
-/* line 20, ../sass/app.scss */
-.clearfix .wt_nav_top .menu .menu-item span {
+/* line 20, ../sass/website/home/_header.scss */
+#wt_header .wt_nav_top .menu .menu-item span {
   font-family: Poppins;
   font-size: 13px;
   color: #393939;
 }
-/* line 25, ../sass/app.scss */
-.clearfix .wt_nav_top .menu .menu-item span:hover {
+/* line 25, ../sass/website/home/_header.scss */
+#wt_header .wt_nav_top .menu .menu-item span:hover {
   color: #428bca;
+}
+
+/* line 1, ../sass/website/home/_slider.scss */
+#wt_containerWrapper {
+  background-color: #000000;
+}
+/* line 4, ../sass/website/home/_slider.scss */
+#wt_containerWrapper .wt_section_area {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 9, ../sass/website/home/_slider.scss */
+#wt_containerWrapper .wt_section_area:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 146, 255, 0.4);
+  left: 0px;
+  right: 0px;
+}
+/* line 21, ../sass/website/home/_slider.scss */
+#wt_containerWrapper .wt_section_area .vc_row .text {
+  display: flex;
+  align-items: center;
+  height: 50vh;
+  min-height: 500px;
+}
+/* line 29, ../sass/website/home/_slider.scss */
+#wt_containerWrapper .wt_section_area .vc_row .text .wpb_wrapper h1 {
+  font-family: Poppins;
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: 800;
+}
+/* line 35, ../sass/website/home/_slider.scss */
+#wt_containerWrapper .wt_section_area .vc_row .text .wpb_wrapper h4 {
+  font-family: Poppins;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 300;
+  line-height: 1.4em;
+}
+/* line 42, ../sass/website/home/_slider.scss */
+#wt_containerWrapper .wt_section_area .vc_row .text .wpb_wrapper h4 span {
+  font-family: Poppins;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 600;
+}
+/* line 53, ../sass/website/home/_slider.scss */
+#wt_containerWrapper .wt_section_area .vc_row .text .wpb_column .wpcf7-form {
+  background: rgba(51, 71, 87, 0.8);
+  border-radius: 3px;
+}
+/* line 58, ../sass/website/home/_slider.scss */
+#wt_containerWrapper .wt_section_area .vc_row .text .wpb_column .wpcf7-form h2 {
+  font-family: Poppins;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 500;
+}
+/* line 67, ../sass/website/home/_slider.scss */
+#wt_containerWrapper .wt_section_area .vc_row .text .wpb_column .wpcf7-form .wpcf7-form-control-wrap .wpcf7-form-control {
+  margin-bottom: 10px;
+  font-family: Poppins;
+  color: #bebebe;
+  font-weight: 400;
+}
+/* line 74, ../sass/website/home/_slider.scss */
+#wt_containerWrapper .wt_section_area .vc_row .text .wpb_column .wpcf7-form .wpcf7-submit {
+  font-family: Poppins;
+  font-size: 18px;
+  background-color: #bc640e;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+/* line 1, ../sass/website/home/_benefits.scss */
+#benefits {
+  padding: 0px !important;
+}
+/* line 4, ../sass/website/home/_benefits.scss */
+#benefits .text {
+  display: flex;
+  align-items: center;
+}
+/* line 12, ../sass/website/home/_benefits.scss */
+#benefits .text .wpb_column .wpb_wrapper h2 {
+  font-family: Poppins;
+  font-size: 38px;
+  color: #313971;
+  font-weight: 400;
+}
+/* line 18, ../sass/website/home/_benefits.scss */
+#benefits .text .wpb_column .wpb_wrapper ul {
+  list-style-type: none;
+  font-family: Poppins;
+  font-size: 21px;
+  color: #393939;
+  font-weight: 400;
+  margin: 0;
+}
+/* line 29, ../sass/website/home/_benefits.scss */
+#benefits .text .wpb_column .wpb_wrapper ul li:before {
+  background-color: #313971;
+  content: "";
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 2px;
+  height: 8px;
+  width: 8px;
+  border-radius: 2px;
+}
+/* line 45, ../sass/website/home/_benefits.scss */
+#benefits .text .vc_column_container .wpb_single_image {
+  margin: 0px;
+}
+/* line 48, ../sass/website/home/_benefits.scss */
+#benefits .text .vc_column_container .wpb_single_image .img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 380px;
+  width: 350px;
+}
+
+/* line 1, ../sass/website/home/_faq.scss */
+#faq {
+  background-color: #ededed;
+  padding-top: 95px !important;
+}
+/* line 7, ../sass/website/home/_faq.scss */
+#faq .intro_text .title {
+  font-family: Poppins;
+  font-size: 38px;
+  color: #313971;
+  font-weight: 400;
+}
+/* line 14, ../sass/website/home/_faq.scss */
+#faq .intro_text .custom_title {
+  font-family: Poppins;
+  font-size: 17px;
+  color: #393939;
+  font-weight: 500;
+  padding-bottom: 60px;
+}
+/* line 28, ../sass/website/home/_faq.scss */
+#faq .wt-row-container .wpb_column .wpb_wrapper h4 {
+  font-family: Poppins;
+  font-size: 16px;
+  color: #393939;
+  font-weight: 800;
+  padding-bottom: 7px;
+}
+/* line 35, ../sass/website/home/_faq.scss */
+#faq .wt-row-container .wpb_column .wpb_wrapper p {
+  font-family: Poppins;
+  font-size: 15px;
+  color: #393939;
+  font-weight: 500;
+}
+
+/* line 3, ../sass/website/home/_pricing.scss */
+#pricing .wt_section_heading {
+  padding: 0 30px;
+}
+/* line 6, ../sass/website/home/_pricing.scss */
+#pricing .wt_section_heading h2 {
+  font-family: Poppins;
+  font-size: 38px;
+  color: #313971;
+  font-weight: 400;
+}
+/* line 13, ../sass/website/home/_pricing.scss */
+#pricing .wt_section_heading h3 {
+  font-family: Poppins;
+  font-size: 17px;
+  color: #393939;
+  font-weight: 500;
+  padding-bottom: 57px;
+}
+/* line 20, ../sass/website/home/_pricing.scss */
+#pricing .wt_section_heading .botao {
+  border: 1px solid #d5d5d5;
+  padding: 33px;
+  border-radius: 6px;
+  padding-bottom: 21px;
+  margin-bottom: 13px;
+}
+/* line 27, ../sass/website/home/_pricing.scss */
+#pricing .wt_section_heading .botao h4 {
+  font-family: Poppins;
+  font-size: 17px;
+  color: #393939;
+  font-weight: 500;
+}
+/* line 33, ../sass/website/home/_pricing.scss */
+#pricing .wt_section_heading .botao h4 .btn {
+  font-family: Poppins;
+  font-size: 18px;
+  background-color: #bc640e;
+  font-weight: 700;
+  margin-right: 20px;
+}
+/* line 47, ../sass/website/home/_pricing.scss */
+#pricing .vc_row .wt_pricing_header h3 {
+  font-family: Poppins;
+  font-size: 20px;
+  color: #393939;
+  font-weight: 500;
+}
+/* line 55, ../sass/website/home/_pricing.scss */
+#pricing .vc_row .wt_pricing_header .wt_plan_price h4 {
+  font-family: Poppins;
+  font-size: 40px;
+  color: #393939;
+  font-weight: 500;
+}
+/* line 61, ../sass/website/home/_pricing.scss */
+#pricing .vc_row .wt_pricing_header .wt_plan_price h4 i {
+  font-family: Poppins;
+  font-size: 15px;
+  color: #393939;
+  font-weight: 500;
+}
+/* line 74, ../sass/website/home/_pricing.scss */
+#pricing .vc_row .wt_pricing_content ul li {
+  font-family: Poppins;
+  font-size: 15px;
+  color: #393939;
+  font-weight: 500;
+}
+/* line 85, ../sass/website/home/_pricing.scss */
+#pricing .vc_row .wt_pricing_btn .btn {
+  font-family: Poppins;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 500;
+  background-color: #bc640e;
+  border-radius: 3px;
+}
+/* line 97, ../sass/website/home/_pricing.scss */
+#pricing .wpb_wrapper .cont {
+  background-color: #f2f2f2;
+}
+/* line 100, ../sass/website/home/_pricing.scss */
+#pricing .wpb_wrapper .cont .titulo {
+  padding-top: 40px;
+}
+/* line 103, ../sass/website/home/_pricing.scss */
+#pricing .wpb_wrapper .cont .titulo h2 {
+  font-family: Poppins;
+  font-size: 26px;
+  color: #393939;
+  font-weight: 500;
+}
+/* line 110, ../sass/website/home/_pricing.scss */
+#pricing .wpb_wrapper .cont .campo {
+  padding-bottom: 45px;
+}
+/* line 113, ../sass/website/home/_pricing.scss */
+#pricing .wpb_wrapper .cont .campo .form {
+  padding-top: 10px;
+}
+/* line 116, ../sass/website/home/_pricing.scss */
+#pricing .wpb_wrapper .cont .campo .form .form-control {
+  border-radius: 0px;
+}
+/* line 120, ../sass/website/home/_pricing.scss */
+#pricing .wpb_wrapper .cont .campo .form-enviar {
+  padding-top: 10px;
+}
+/* line 123, ../sass/website/home/_pricing.scss */
+#pricing .wpb_wrapper .cont .campo .form-enviar .btn {
+  width: 100%;
+  padding: 4px 16px;
+  font-family: Poppins;
+  font-size: 18px;
+  background-color: #bc640e;
+  font-weight: 700;
 }

@@ -1,33 +1,12 @@
-.clearfix{
-	background: #fff !important;
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,800');
 
-	.navbar-header{
+@import "website/home/header";
 
-		.slider{
-			background-position: center;
-		    background-repeat: no-repeat;
-		    background-size: auto;
-		    width: 230px;
-		    height: 40px;			
-		}	    
-	}
-	.wt_nav_top{
+@import "website/home/slider";
 
-		.menu{
-			
-			.menu-item{
+@import "website/home/benefits";
 
-				span{
-					font-family: Poppins;
-				    font-size: 13px;
-				    color: #393939;
+@import "website/home/faq";
 
-				    &:hover{
-				    	color: #428bca;
-				    }
-				}
+@import "website/home/pricing";
 
-			}
-		}
-	}
-}

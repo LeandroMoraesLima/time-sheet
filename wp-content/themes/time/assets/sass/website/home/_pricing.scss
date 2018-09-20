@@ -1,0 +1,135 @@
+#pricing{
+
+	.wt_section_heading{
+		padding: 0 30px;
+
+		h2{
+			font-family: Poppins;
+		    font-size: 38px;
+		    color: #313971;
+		    font-weight: 400;
+
+		}
+		h3{
+			font-family: Poppins;
+		    font-size: 17px;
+		    color: #393939;
+		    font-weight: 500;
+		    padding-bottom: 57px;
+		}
+		.botao{
+			border: 1px solid #d5d5d5;
+		    padding: 33px;
+		    border-radius: 6px;
+		    padding-bottom: 21px;
+		    margin-bottom: 13px;
+
+			h4{
+				font-family: Poppins;
+			    font-size: 17px;
+			    color: #393939;
+			    font-weight: 500;
+
+				.btn{
+					font-family: Poppins;
+				    font-size: 18px;
+				    background-color: #bc640e;
+				    font-weight: 700;
+				    margin-right: 20px;
+				}
+			}
+		}
+	}
+	.vc_row{
+
+		.wt_pricing_header{
+
+			h3{
+				font-family: Poppins;
+			    font-size: 20px;
+			    color: #393939;
+			    font-weight: 500;
+			}
+			.wt_plan_price{
+
+				h4{
+					font-family: Poppins;
+				    font-size: 40px;
+				    color: #393939;
+				    font-weight: 500;
+
+				    i{
+				    	font-family: Poppins;
+					    font-size: 15px;
+					    color: #393939;
+					    font-weight: 500;
+				    }					
+				}
+			}			
+		}
+		.wt_pricing_content{
+
+			ul{
+
+				li{
+					font-family: Poppins;
+				    font-size: 15px;
+				    color: #393939;
+				    font-weight: 500;
+				}							
+			}
+		}
+		.wt_pricing_btn{
+
+
+			.btn{
+				font-family: Poppins;
+			    font-size: 15px;
+			    color: #fff;
+			    font-weight: 500;
+			    background-color: #bc640e;
+			    border-radius: 3px;			    
+			}
+		}
+	}
+	.wpb_wrapper{
+
+		.cont{
+			background-color: #f2f2f2;
+
+			.titulo{
+				padding-top: 40px;
+
+				h2{
+					font-family: Poppins;
+				    font-size: 26px;
+				    color: #393939;
+				    font-weight: 500;
+				}
+			}		
+			.campo{
+				padding-bottom: 45px;
+
+				.form{
+					padding-top: 10px;
+
+					.form-control{
+						border-radius: 0px;
+					}
+				}
+				.form-enviar{
+					padding-top: 10px;					
+
+					.btn{
+						width: 100%;
+						padding: 4px 16px;
+    					font-family: Poppins;
+					    font-size: 18px;
+					    background-color: #bc640e;
+					    font-weight: 700;
+					}
+				}
+			}
+		}
+	}
+}

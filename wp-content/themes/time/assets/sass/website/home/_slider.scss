@@ -1,0 +1,87 @@
+#wt_containerWrapper{
+	background-color: #000000;
+
+	.wt_section_area{
+		background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+
+		&:before{
+			content: '';
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			background-color: rgba(0, 146, 255, 0.4);
+			left: 0px;
+			right: 0px;
+		}
+
+		.vc_row{
+
+			.text{
+				display: flex;
+			    align-items: center;
+			    height: 50vh;
+			    min-height: 500px;
+
+				.wpb_wrapper{
+
+					h1{
+						font-family: Poppins;
+					    font-size: 40px;
+					    color: #ffffff;
+					    font-weight: 800;
+					}
+					h4{
+						font-family: Poppins;
+					    font-size: 18px;
+					    color: #ffffff;
+					    font-weight: 300;
+					    line-height: 1.4em;	
+
+					    span{
+					    	font-family: Poppins;
+						    font-size: 18px;
+						    color: #ffffff;
+						    font-weight: 600;
+
+					    }
+					}
+				}
+				.wpb_column{
+
+					.wpcf7-form{
+						background: rgba(51, 71, 87, 0.8);
+						border-radius: 3px;
+
+
+						h2{
+							font-family: Poppins;
+						    font-size: 20px;
+						    color: #ffffff;
+						    font-weight: 500;
+
+						}
+						.wpcf7-form-control-wrap{
+
+							.wpcf7-form-control{
+								margin-bottom: 10px;
+								font-family: Poppins;
+							    color: #bebebe;
+							    font-weight: 400;
+							}							
+						}
+						.wpcf7-submit{
+							font-family: Poppins;
+						    font-size: 18px;
+						    background-color: #bc640e;
+						    font-weight: 700;
+						    margin-bottom: 10px;
+    						margin-top: 30px;
+						}
+					}
+				}
+			}
+		}
+	}
+}

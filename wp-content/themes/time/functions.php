@@ -14,10 +14,12 @@
 		wp_register_style('bootstrapcss', CSS . '/bootstrap.css', array(), $versao, false );		
 		wp_register_style('entypo-fontellocss', CSS . '/entypo-fontello.css', array(), $versao, false );
 		wp_register_style('font-awesomecss', CSS . '/font-awesome.css', array(), $versao, false );
+		wp_register_style('jscss', CSS . '/js_composer.min.css', array(), $versao, false );
 		wp_register_style('main-mediacss', CSS . '/main-media.css', array(), $versao, false );
 		wp_register_style('maincss', CSS . '/main.css', array(), $versao, false );
 		wp_register_style('prettyphotocss', CSS . '/prettyPhoto.css', array(), $versao, false );
 		wp_register_style('skin_2css', CSS . '/skin_2.css', array(), $versao, false );
+		wp_register_style('wt-visualcss', CSS . '/wt-visual-composer-extensions-front.css', array(), $versao, false );
 
 
 
@@ -42,6 +44,8 @@
 		wp_enqueue_style('maincss');
 		wp_enqueue_style('prettyphotocss');
 		wp_enqueue_style('skin_2css');
+		wp_enqueue_style('wt-visualcss');
+		wp_enqueue_style('jscss');
 		
 
 		wp_enqueue_script('bootstrapjs');
