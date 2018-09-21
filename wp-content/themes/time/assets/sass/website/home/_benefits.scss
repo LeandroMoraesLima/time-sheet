@@ -1,57 +1,60 @@
 #benefits{
-	padding: 0px !important;
+	position: relative;	
+	padding-top: 110px !important;
+    padding-bottom: 140px !important;
 
-	.text{
-		display: flex;
-	    align-items: center;
+		&:before{
+			content: '';
+			position: absolute;
+			width: 45%;
+			height: 100%;
+			top: 0px;
+			right: 0px;
+			background-repeat: no-repeat;
+		    background-size: cover;
+		    background-position: center;	   
+		}
+	#vantagens-ui{		
+	 	
 
-		.wpb_column{
+		.text{
+			display: flex;
+	    	
+			.titulo{
+				font-family: Poppins;
+			    font-size: 38px;
+			    color: #313971;
+			    font-weight: 400;
+			}
+			ul{
+			    list-style-type: none;
+				font-family: Poppins;
+			    font-size: 21px;
+			    color: #393939;
+			    font-weight: 400;
+			    margin: 0;
 
-			.wpb_wrapper{
 
-				h2{
-					font-family: Poppins;
-				    font-size: 38px;
-				    color: #313971;
-				    font-weight: 400;
-				}
-				ul{
-				    list-style-type: none;
-					font-family: Poppins;
-				    font-size: 21px;
-				    color: #393939;
-				    font-weight: 400;
-				    margin: 0;
+				li{
 
-
-					li{
-
-						&:before{
-							background-color: #313971;
-							content: "";
-							display: inline-block;
-							margin-right: 10px;
-							margin-bottom: 2px;
-							height: 8px;
-							width: 8px;
-							border-radius: 2px;
-						}
+					&:before{
+						background-color: #313971;
+						content: "";
+						display: inline-block;
+						margin-right: 10px;
+						margin-bottom: 2px;
+						height: 8px;
+						width: 8px;
+						border-radius: 2px;
 					}
 				}
-			}
+			}		
 		}
-		.vc_column_container{
+		.vc_single_image-wrapper{
+			margin: 0px;
 
-			.wpb_single_image{
-				margin: 0px;
+			.img{
 
-				.img{
-					background-position: center;
-				    background-repeat: no-repeat;
-				    background-size: cover;
-				    height: 380px;
-		    		width: 350px;
-				}
 			}
 		}
 	}

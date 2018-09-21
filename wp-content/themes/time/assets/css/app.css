@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,800");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,800");
 /* line 1, ../sass/website/home/_header.scss */
 #wt_header {
   background: #fff !important;
@@ -102,22 +102,35 @@
 
 /* line 1, ../sass/website/home/_benefits.scss */
 #benefits {
-  padding: 0px !important;
+  position: relative;
+  padding-top: 110px !important;
+  padding-bottom: 140px !important;
 }
-/* line 4, ../sass/website/home/_benefits.scss */
-#benefits .text {
+/* line 6, ../sass/website/home/_benefits.scss */
+#benefits:before {
+  content: '';
+  position: absolute;
+  width: 45%;
+  height: 100%;
+  top: 0px;
+  right: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+/* line 20, ../sass/website/home/_benefits.scss */
+#benefits #vantagens-ui .text {
   display: flex;
-  align-items: center;
 }
-/* line 12, ../sass/website/home/_benefits.scss */
-#benefits .text .wpb_column .wpb_wrapper h2 {
+/* line 23, ../sass/website/home/_benefits.scss */
+#benefits #vantagens-ui .text .titulo {
   font-family: Poppins;
   font-size: 38px;
   color: #313971;
   font-weight: 400;
 }
-/* line 18, ../sass/website/home/_benefits.scss */
-#benefits .text .wpb_column .wpb_wrapper ul {
+/* line 29, ../sass/website/home/_benefits.scss */
+#benefits #vantagens-ui .text ul {
   list-style-type: none;
   font-family: Poppins;
   font-size: 21px;
@@ -125,8 +138,8 @@
   font-weight: 400;
   margin: 0;
 }
-/* line 29, ../sass/website/home/_benefits.scss */
-#benefits .text .wpb_column .wpb_wrapper ul li:before {
+/* line 40, ../sass/website/home/_benefits.scss */
+#benefits #vantagens-ui .text ul li:before {
   background-color: #313971;
   content: "";
   display: inline-block;
@@ -136,17 +149,9 @@
   width: 8px;
   border-radius: 2px;
 }
-/* line 45, ../sass/website/home/_benefits.scss */
-#benefits .text .vc_column_container .wpb_single_image {
+/* line 53, ../sass/website/home/_benefits.scss */
+#benefits #vantagens-ui .vc_single_image-wrapper {
   margin: 0px;
-}
-/* line 48, ../sass/website/home/_benefits.scss */
-#benefits .text .vc_column_container .wpb_single_image .img {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 380px;
-  width: 350px;
 }
 
 /* line 1, ../sass/website/home/_faq.scss */
@@ -185,18 +190,18 @@
   font-weight: 500;
 }
 
-/* line 3, ../sass/website/home/_pricing.scss */
+/* line 5, ../sass/website/home/_pricing.scss */
 #pricing .wt_section_heading {
   padding: 0 30px;
 }
-/* line 6, ../sass/website/home/_pricing.scss */
+/* line 8, ../sass/website/home/_pricing.scss */
 #pricing .wt_section_heading h2 {
   font-family: Poppins;
   font-size: 38px;
   color: #313971;
   font-weight: 400;
 }
-/* line 13, ../sass/website/home/_pricing.scss */
+/* line 15, ../sass/website/home/_pricing.scss */
 #pricing .wt_section_heading h3 {
   font-family: Poppins;
   font-size: 17px;
@@ -204,7 +209,7 @@
   font-weight: 500;
   padding-bottom: 57px;
 }
-/* line 20, ../sass/website/home/_pricing.scss */
+/* line 22, ../sass/website/home/_pricing.scss */
 #pricing .wt_section_heading .botao {
   border: 1px solid #d5d5d5;
   padding: 33px;
@@ -212,14 +217,14 @@
   padding-bottom: 21px;
   margin-bottom: 13px;
 }
-/* line 27, ../sass/website/home/_pricing.scss */
+/* line 29, ../sass/website/home/_pricing.scss */
 #pricing .wt_section_heading .botao h4 {
   font-family: Poppins;
   font-size: 17px;
   color: #393939;
   font-weight: 500;
 }
-/* line 33, ../sass/website/home/_pricing.scss */
+/* line 35, ../sass/website/home/_pricing.scss */
 #pricing .wt_section_heading .botao h4 .btn {
   font-family: Poppins;
   font-size: 18px;
@@ -227,35 +232,35 @@
   font-weight: 700;
   margin-right: 20px;
 }
-/* line 47, ../sass/website/home/_pricing.scss */
+/* line 49, ../sass/website/home/_pricing.scss */
 #pricing .vc_row .wt_pricing_header h3 {
   font-family: Poppins;
   font-size: 20px;
   color: #393939;
   font-weight: 500;
 }
-/* line 55, ../sass/website/home/_pricing.scss */
+/* line 57, ../sass/website/home/_pricing.scss */
 #pricing .vc_row .wt_pricing_header .wt_plan_price h4 {
   font-family: Poppins;
   font-size: 40px;
   color: #393939;
   font-weight: 500;
 }
-/* line 61, ../sass/website/home/_pricing.scss */
+/* line 63, ../sass/website/home/_pricing.scss */
 #pricing .vc_row .wt_pricing_header .wt_plan_price h4 i {
   font-family: Poppins;
   font-size: 15px;
   color: #393939;
   font-weight: 500;
 }
-/* line 74, ../sass/website/home/_pricing.scss */
+/* line 76, ../sass/website/home/_pricing.scss */
 #pricing .vc_row .wt_pricing_content ul li {
   font-family: Poppins;
   font-size: 15px;
   color: #393939;
   font-weight: 500;
 }
-/* line 85, ../sass/website/home/_pricing.scss */
+/* line 87, ../sass/website/home/_pricing.scss */
 #pricing .vc_row .wt_pricing_btn .btn {
   font-family: Poppins;
   font-size: 15px;
@@ -264,43 +269,174 @@
   background-color: #bc640e;
   border-radius: 3px;
 }
-/* line 97, ../sass/website/home/_pricing.scss */
-#pricing .wpb_wrapper .cont {
-  background-color: #f2f2f2;
+/* line 99, ../sass/website/home/_pricing.scss */
+#pricing .wpb_wrapper #enviar {
+  max-width: 100%;
 }
-/* line 100, ../sass/website/home/_pricing.scss */
-#pricing .wpb_wrapper .cont .titulo {
+/* line 102, ../sass/website/home/_pricing.scss */
+#pricing .wpb_wrapper #enviar .cont {
+  background-color: #f2f2f2;
+  padding: 0px;
+  margin: 0 13px;
+}
+/* line 108, ../sass/website/home/_pricing.scss */
+#pricing .wpb_wrapper #enviar .cont .titulo {
   padding-top: 40px;
 }
-/* line 103, ../sass/website/home/_pricing.scss */
-#pricing .wpb_wrapper .cont .titulo h2 {
+/* line 111, ../sass/website/home/_pricing.scss */
+#pricing .wpb_wrapper #enviar .cont .titulo h2 {
   font-family: Poppins;
   font-size: 26px;
   color: #393939;
   font-weight: 500;
 }
-/* line 110, ../sass/website/home/_pricing.scss */
-#pricing .wpb_wrapper .cont .campo {
+/* line 118, ../sass/website/home/_pricing.scss */
+#pricing .wpb_wrapper #enviar .cont .campo {
   padding-bottom: 45px;
 }
-/* line 113, ../sass/website/home/_pricing.scss */
-#pricing .wpb_wrapper .cont .campo .form {
+/* line 121, ../sass/website/home/_pricing.scss */
+#pricing .wpb_wrapper #enviar .cont .campo .form {
   padding-top: 10px;
 }
-/* line 116, ../sass/website/home/_pricing.scss */
-#pricing .wpb_wrapper .cont .campo .form .form-control {
+/* line 124, ../sass/website/home/_pricing.scss */
+#pricing .wpb_wrapper #enviar .cont .campo .form .form-control {
   border-radius: 0px;
 }
-/* line 120, ../sass/website/home/_pricing.scss */
-#pricing .wpb_wrapper .cont .campo .form-enviar {
+/* line 128, ../sass/website/home/_pricing.scss */
+#pricing .wpb_wrapper #enviar .cont .campo .form-enviar {
   padding-top: 10px;
 }
-/* line 123, ../sass/website/home/_pricing.scss */
-#pricing .wpb_wrapper .cont .campo .form-enviar .btn {
+/* line 131, ../sass/website/home/_pricing.scss */
+#pricing .wpb_wrapper #enviar .cont .campo .form-enviar .btn {
   width: 100%;
   padding: 4px 16px;
   font-family: Poppins;
   font-size: 18px;
   background-color: #bc640e;
   font-weight: 700;
+}
+
+/* line 7, ../sass/website/home/_clients.scss */
+#clients .wpb_column .wt_section_heading h2 {
+  font-family: Poppins;
+  font-size: 38px;
+  color: #313971;
+  font-weight: 400;
+}
+/* line 13, ../sass/website/home/_clients.scss */
+#clients .wpb_column .wt_section_heading h3 {
+  font-family: Poppins;
+  font-size: 17px;
+  color: #393939;
+  font-weight: 500;
+  padding-bottom: 60px;
+}
+/* line 22, ../sass/website/home/_clients.scss */
+#clients .wt-row-container {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* &:before{
+  	content: '';
+  	position: absolute;
+  	width: 100%;
+  	height: 100%;
+  	background-color: rgba(0, 146, 255, 0.4);
+  	left: 0px;
+  	right: 0px;
+  } */
+}
+/* line 39, ../sass/website/home/_clients.scss */
+#clients .wt-row-container .wt_section_heading .titulo {
+  ont-family: Poppins;
+  font-size: 38px;
+  color: #fff;
+  font-weight: 400;
+}
+/* line 46, ../sass/website/home/_clients.scss */
+#clients .wt-row-container .wt_section_heading .text {
+  font-family: Poppins;
+  font-size: 17px;
+  color: #fff;
+  font-weight: 500;
+}
+/* line 57, ../sass/website/home/_clients.scss */
+#clients .wt-row-container .wpb_raw_code .wpb_wrapper .btn {
+  font-family: Poppins;
+  font-size: 18px;
+  background-color: #bc640e;
+  font-weight: 700;
+  margin-right: 20px;
+  border: none;
+}
+
+/* line 3, ../sass/website/home/_footer.scss */
+#wt_footerWrapper .clearfix {
+  background-color: #262a41;
+}
+/* line 12, ../sass/website/home/_footer.scss */
+#wt_footerWrapper .clearfix .wt_footer_col .widget .menu .menu-item {
+  border: none;
+  padding: 0px 0;
+}
+/* line 16, ../sass/website/home/_footer.scss */
+#wt_footerWrapper .clearfix .wt_footer_col .widget .menu .menu-item a {
+  font-family: Poppins;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 300;
+}
+/* line 22, ../sass/website/home/_footer.scss */
+#wt_footerWrapper .clearfix .wt_footer_col .widget .menu .menu-item a:hover {
+  color: #ffffff;
+  font-weight: 600;
+}
+/* line 33, ../sass/website/home/_footer.scss */
+#wt_footerWrapper .clearfix .textwidget .wt_copyright {
+  font-family: Poppins;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 400;
+}
+/* line 43, ../sass/website/home/_footer.scss */
+#wt_footerWrapper .clearfix .mc4wp-form p .form-control {
+  background-color: #fff !important;
+  border-color: #fff !important;
+}
+/* line 47, ../sass/website/home/_footer.scss */
+#wt_footerWrapper .clearfix .mc4wp-form p .mc4wp_submit {
+  font-family: Poppins;
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: 700;
+  background-color: #bc640e;
+}
+/* line 58, ../sass/website/home/_footer.scss */
+#wt_footerWrapper .clearfix .widget .wt_subscribe {
+  font-family: Poppins;
+  font-size: 14px !important;
+  color: #ffffff;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* Footer Black Section */
+/* line 74, ../sass/website/home/_footer.scss */
+#black .titulo {
+  text-align: center;
+  padding: 15px;
+}
+/* line 78, ../sass/website/home/_footer.scss */
+#black .titulo span {
+  font-family: Poppins;
+  font-size: 17px;
+  color: #7f7f7f;
+  font-weight: 400;
+}
+/* line 84, ../sass/website/home/_footer.scss */
+#black .titulo a {
+  font-family: Poppins;
+  font-size: 17px;
+  color: #cc2228;
+  font-weight: 400;
 }

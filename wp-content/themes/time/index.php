@@ -6,10 +6,6 @@
 Slider Section
 ============================-->
 
-
-<!-- End headerWrapper -->
-
-
 <div id="wt_containerWrapper" class="clearfix">
 	<div id="wt_containerWrapp" class="clearfix">
 		<section id="wt_section_home" class="wt_section_area" style="background-image: url('<?php echo IMG; ?>/slider.png')">
@@ -45,15 +41,7 @@ Slider Section
 															<div role="form" class="wpcf7" id="wpcf7-f574-o1" lang="en-US" dir="ltr">
 																<div class="screen-reader-response">
 																</div>
-																<form action="/crossway/v1/#wpcf7-f574-o1" method="post" class="wpcf7-form" novalidate="novalidate">
-																	<div style="display: none;">
-																		<input type="hidden" name="_wpcf7" value="574" />
-																		<input type="hidden" name="_wpcf7_version" value="4.8" />
-																		<input type="hidden" name="_wpcf7_locale" value="en_US" />
-																		<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f574-o1" />
-																		<input type="hidden" name="_wpcf7_container_post" value="0" />
-																		<input type="hidden" name="_wpcf7_nonce" value="d2385e2005" />
-																	</div>
+																<form action="/crossway/v1/#wpcf7-f574-o1" method="post" class="wpcf7-form" novalidate="novalidate">						
 																	<h2>
 																		AUMENTE A PRODUTIVIDADE DE SUA EMPRESA AGORA MESMO.
 																	</h2>
@@ -104,14 +92,18 @@ Slider Section
 Benefits Section
 ============================-->
 
-
+	<style>
+		#benefits:before {
+			background-image: url('<?php echo IMG; ?>/TimeSheet_vantagens.png');
+		}
+	</style>
 	<section id="benefits" class="wt_section_area" style="padding-top:60px; ">
-		<div class="container-fluid">
+		<div id="vantagens-ui" class="container-fluid">
 			<div class="row">
-				<div class="testi col-md-12">
+				<div class="vantagens col-md-12">
 					<div class="container">
-						<div class="row">
-							<div class="testi1 col-md-6">		
+						<div class="text row">
+							<div class="col-md-6">		
 								<div class="row">						
 									<div class="wpb_wrapper">
 										<h2 class="titulo">VANTAGENS</h2>
@@ -125,9 +117,9 @@ Benefits Section
 										</ul>
 									</div>
 								</div>													
-							</div>								
-							<div class="vc_single_image-wrapper   vc_box_border_grey">
-								<div class="img" style="background-image: url('<?php echo IMG; ?>/TimeSheet_vantagens.png')"></div>
+							</div>	
+							<div class="col-md-6">									
+								
 							</div>
 						</div>
 					</div>
@@ -235,7 +227,7 @@ pricing Section
 <section id="pricing" class="wt_section_area" style="padding-top:60px; ">
    <div class="wt-row-container wt-row-centered" style="border-color: #dddddd;border-style: solid;border-width: 0px 0px 1px 0px;">
 		<div class="vc_row wpb_row vc_row-fluid"  style="padding-top: 10px;padding-bottom: 30px;">
-			<div class="container">
+			<div class="container" style="">
 				<div class="row">
 					<div class="wpb_column vc_column_container vc_col-sm-12">
 						<div class="vc_column-inner clearfix">
@@ -330,7 +322,7 @@ pricing Section
 							</div>
 						</div>
 						<div class="wpb_wrapper wt_wpb_wrapper clearfix">
-							<div class="container">
+							<div id="enviar" class="container">
 								<div class="cont row">
 									<div class="col-md-12">
 										<div class="titulo text-center">
@@ -362,3 +354,62 @@ pricing Section
 		</div>
 	</div>
 </section>
+
+<!--==========================
+Clients Section
+============================-->
+
+<section id="clients" class="wt_section_area" style="">
+	<div class="wt-row-container wt-row-centered" style="border-color: #dddddd;border-style: solid;border-width: 1px 0px 0px 0px;">
+		<div class="vc_row wpb_row vc_row-fluid"  style="padding-top: 60px;padding-bottom: 60px;">
+			<div class="container">
+				<div class="row">
+					<div class="wpb_column vc_column_container vc_col-sm-12">
+						<div class="vc_column-inner clearfix">
+							<div class="wpb_wrapper wt_wpb_wrapper clearfix">
+								<div class="wt_section_heading intro_text">
+									<h2>CLIENTES</h2>
+									<h3>Temos a honra e o prazer de trabalhar com grandes empresas.</h3>									
+									<div class="wt_clearboth"></div>
+								</div>
+								<div id="wt_clients_sc-10881" class="wt_clients_sc wt_align_center wt_owl_carousel  wt_animate wt_animate_if_visible" data-animation="fadeInUp"  data-owl-speed="600" data-owl-pagSpeed="1000" data-owl-autoPlay="false" data-owl-stopOnHover="" data-owl-navigation="" data-owl-pagination="true" data-owl-items="6" data-owl-itemsDesktop="5" data-owl-itemsSmallDesktop="5" data-owl-itemsTablet="3" data-owl-itemsMobile="2" data-owl-itemsMobileSmall="1">
+									<div class="wt_client item">
+										<img width="360" height="240" src="http://demo.qodux.net/crossway/v1/wp-content/uploads/sites/2/2014/11/client-1.1.png" class="attachment-full" alt="" srcset="http://demo.qodux.net/crossway/v1/wp-content/uploads/sites/2/2014/11/client-1.1.png 360w, http://demo.qodux.net/crossway/v1/wp-content/uploads/sites/2/2014/11/client-1.1-300x200.png 300w" sizes="(max-width: 360px) 100vw, 360px" />
+									</div>
+									<div class="wt_client item">
+										<img width="360" height="240" src="http://demo.qodux.net/crossway/v1/wp-content/uploads/sites/2/2014/11/client-2.1.png" class="attachment-full" alt="" srcset="http://demo.qodux.net/crossway/v1/wp-content/uploads/sites/2/2014/11/client-2.1.png 360w, http://demo.qodux.net/crossway/v1/wp-content/uploads/sites/2/2014/11/client-2.1-300x200.png 300w" sizes="(max-width: 360px) 100vw, 360px" />
+									</div>												
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="wt-row-container wt-row-centered wt_skin_light" style="background-image: url('<?php echo IMG; ?>/TimeSheet_img.png');">
+		<div id="wt_section_heading" class="vc_row wpb_row vc_row-fluid text-center"  style="padding-top: 100px;padding-bottom: 100px;">
+			<div class="container">
+				<div class="row">
+					<div class="wpb_column vc_column_container vc_col-sm-12">
+						<div class="vc_column-inner clearfix">
+							<div class="wpb_wrapper wt_wpb_wrapper clearfix">
+								<div class="wt_section_heading intro_text wt_animate wt_animate_if_visible" data-animation="fadeIn">
+									<h2 class="titulo">VEJA AGORA MESMO</h2>
+									<h3 class="text">Conheça todas as vantagens do Timesheep Control. Solicite uma demostração do sistema e avalie qual a melhor solução para sua empresa.</h3>
+								</div>
+								<div class="wpb_raw_code wpb_content_element wpb_raw_html" >
+									<div class="wpb_wrapper">
+										<a class="btn btn-primary btn-lg" href="#">7 DIAS FREE</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<?php get_footer(); ?>

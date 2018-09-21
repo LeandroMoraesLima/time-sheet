@@ -1,0 +1,91 @@
+#wt_footerWrapper{
+
+	.clearfix{
+		background-color: #262a41;
+
+		.wt_footer_col{
+
+			.widget{
+
+				.menu{
+
+					.menu-item{
+						border: none;
+						padding: 0px 0;
+
+						a{
+							font-family: Poppins;
+						    font-size: 14px;
+						    color: #ffffff;
+						    font-weight: 300;
+
+						    &:hover{
+				    			color: #ffffff;
+				    			font-weight: 600;
+						    }
+						}
+					}
+				}
+			}
+		}
+		.textwidget{
+
+			.wt_copyright{
+				font-family: Poppins;
+			    font-size: 14px;
+			    color: #ffffff;
+			    font-weight: 400;
+			}
+		}
+		.mc4wp-form{			   
+
+			p{
+				.form-control{
+					background-color: #fff !important;
+					border-color: #fff !important;
+				}
+				.mc4wp_submit{
+					font-family: Poppins;
+				    font-size: 12px;
+				    color: #ffffff;
+				    font-weight: 700;
+				    background-color: #bc640e;
+				}
+			}
+		}
+		.widget{
+
+			.wt_subscribe{
+				font-family: Poppins;
+			    font-size: 14px !important;
+			    color: #ffffff;
+			    font-weight: 400;
+			    text-align: center;
+			}
+		}
+	}
+}
+
+/* Footer Black Section */
+
+
+#black{
+
+	.titulo{
+		text-align: center;
+		padding: 15px;
+
+		span{
+			font-family: Poppins;
+		    font-size: 17px;
+		    color: #7f7f7f;
+		    font-weight: 400;	    
+		}
+		a{
+			font-family: Poppins;
+			font-size: 17px;
+			color: #cc2228;
+			font-weight: 400;	
+		}
+	}
+}

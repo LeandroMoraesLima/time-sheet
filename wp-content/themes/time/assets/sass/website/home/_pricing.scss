@@ -1,5 +1,7 @@
 #pricing{
 
+	
+		
 	.wt_section_heading{
 		padding: 0 30px;
 
@@ -17,14 +19,14 @@
 		    font-weight: 500;
 		    padding-bottom: 57px;
 		}
-		.botao{
+		.botao{ 
 			border: 1px solid #d5d5d5;
 		    padding: 33px;
 		    border-radius: 6px;
 		    padding-bottom: 21px;
 		    margin-bottom: 13px;
 
-			h4{
+			h4{ 
 				font-family: Poppins;
 			    font-size: 17px;
 			    color: #393939;
@@ -94,39 +96,46 @@
 	}
 	.wpb_wrapper{
 
-		.cont{
-			background-color: #f2f2f2;
+		#enviar{
+			max-width: 100%;
 
-			.titulo{
-				padding-top: 40px;
+			.cont{
+				background-color: #f2f2f2;
+				padding: 0px;
+				margin: 0 13px;
 
-				h2{
-					font-family: Poppins;
-				    font-size: 26px;
-				    color: #393939;
-				    font-weight: 500;
-				}
-			}		
-			.campo{
-				padding-bottom: 45px;
 
-				.form{
-					padding-top: 10px;
+				.titulo{
+					padding-top: 40px;
 
-					.form-control{
-						border-radius: 0px;
+					h2{
+						font-family: Poppins;
+					    font-size: 26px;
+					    color: #393939;
+					    font-weight: 500;
 					}
-				}
-				.form-enviar{
-					padding-top: 10px;					
+				}		
+				.campo{
+					padding-bottom: 45px;
 
-					.btn{
-						width: 100%;
-						padding: 4px 16px;
-    					font-family: Poppins;
-					    font-size: 18px;
-					    background-color: #bc640e;
-					    font-weight: 700;
+					.form{
+						padding-top: 10px;
+
+						.form-control{
+							border-radius: 0px;
+						}
+					}
+					.form-enviar{
+						padding-top: 10px;					
+
+						.btn{
+							width: 100%;
+							padding: 4px 16px;
+	    					font-family: Poppins;
+						    font-size: 18px;
+						    background-color: #bc640e;
+						    font-weight: 700;
+						}
 					}
 				}
 			}

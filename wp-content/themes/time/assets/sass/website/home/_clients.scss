@@ -1,0 +1,69 @@
+#clients{
+
+	.wpb_column{
+
+		.wt_section_heading{
+
+			h2{
+				font-family: Poppins;
+			    font-size: 38px;
+			    color: #313971;
+			    font-weight: 400;
+			}
+			h3{
+				font-family: Poppins;
+			    font-size: 17px;
+			    color: #393939;
+			    font-weight: 500;
+			    padding-bottom: 60px;
+			}
+		}
+	}
+	.wt-row-container{
+		background-position: top center;
+		background-size: cover;
+		background-repeat: no-repeat;
+
+		/* &:before{
+			content: '';
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			background-color: rgba(0, 146, 255, 0.4);
+			left: 0px;
+			right: 0px;
+		} */
+
+		.wt_section_heading{
+
+			.titulo{
+				ont-family: Poppins;
+			    font-size: 38px;
+			    color: #fff;
+			    font-weight: 400;
+
+			}
+			.text{				
+				font-family: Poppins;
+			    font-size: 17px;
+			    color: #fff;
+			    font-weight: 500;
+			}
+		}
+		.wpb_raw_code{
+
+			.wpb_wrapper{
+
+				.btn{
+					font-family: Poppins;
+				    font-size: 18px;
+				    background-color: rgb(188, 100, 14);
+				    font-weight: 700;
+				    margin-right: 20px;
+				    border: none;
+
+				}
+			}
+		}
+	}
+}
