@@ -7,22 +7,24 @@
 
 			.widget{
 
-				.menu{
+				.menu{					
 
 					.menu-item{
 						border: none;
 						padding: 0px 0;
 
+						.mapa{
+							font-family: Poppins;
+						    font-size: 14px;
+						    color: #ffffff;
+						    font-weight: 600;
+						}
+
 						a{
 							font-family: Poppins;
 						    font-size: 14px;
 						    color: #ffffff;
-						    font-weight: 300;
-
-						    &:hover{
-				    			color: #ffffff;
-				    			font-weight: 600;
-						    }
+						    font-weight: 300;					    
 						}
 					}
 				}
@@ -60,7 +62,7 @@
 			    font-size: 14px !important;
 			    color: #ffffff;
 			    font-weight: 400;
-			    text-align: center;
+			    text-align: right;
 			}
 		}
 	}

@@ -380,30 +380,32 @@
   padding: 0px 0;
 }
 /* line 16, ../sass/website/home/_footer.scss */
+#wt_footerWrapper .clearfix .wt_footer_col .widget .menu .menu-item .mapa {
+  font-family: Poppins;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 600;
+}
+/* line 23, ../sass/website/home/_footer.scss */
 #wt_footerWrapper .clearfix .wt_footer_col .widget .menu .menu-item a {
   font-family: Poppins;
   font-size: 14px;
   color: #ffffff;
   font-weight: 300;
 }
-/* line 22, ../sass/website/home/_footer.scss */
-#wt_footerWrapper .clearfix .wt_footer_col .widget .menu .menu-item a:hover {
-  color: #ffffff;
-  font-weight: 600;
-}
-/* line 33, ../sass/website/home/_footer.scss */
+/* line 35, ../sass/website/home/_footer.scss */
 #wt_footerWrapper .clearfix .textwidget .wt_copyright {
   font-family: Poppins;
   font-size: 14px;
   color: #ffffff;
   font-weight: 400;
 }
-/* line 43, ../sass/website/home/_footer.scss */
+/* line 45, ../sass/website/home/_footer.scss */
 #wt_footerWrapper .clearfix .mc4wp-form p .form-control {
   background-color: #fff !important;
   border-color: #fff !important;
 }
-/* line 47, ../sass/website/home/_footer.scss */
+/* line 49, ../sass/website/home/_footer.scss */
 #wt_footerWrapper .clearfix .mc4wp-form p .mc4wp_submit {
   font-family: Poppins;
   font-size: 12px;
@@ -411,29 +413,29 @@
   font-weight: 700;
   background-color: #bc640e;
 }
-/* line 58, ../sass/website/home/_footer.scss */
+/* line 60, ../sass/website/home/_footer.scss */
 #wt_footerWrapper .clearfix .widget .wt_subscribe {
   font-family: Poppins;
   font-size: 14px !important;
   color: #ffffff;
   font-weight: 400;
-  text-align: center;
+  text-align: right;
 }
 
 /* Footer Black Section */
-/* line 74, ../sass/website/home/_footer.scss */
+/* line 76, ../sass/website/home/_footer.scss */
 #black .titulo {
   text-align: center;
   padding: 15px;
 }
-/* line 78, ../sass/website/home/_footer.scss */
+/* line 80, ../sass/website/home/_footer.scss */
 #black .titulo span {
   font-family: Poppins;
   font-size: 17px;
   color: #7f7f7f;
   font-weight: 400;
 }
-/* line 84, ../sass/website/home/_footer.scss */
+/* line 86, ../sass/website/home/_footer.scss */
 #black .titulo a {
   font-family: Poppins;
   font-size: 17px;

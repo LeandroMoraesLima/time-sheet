@@ -9,26 +9,33 @@ Footer Section
 				<div class="wt_footer_col col-sm-6 col-md-4 wt_animate wt_animate_if_visible" data-animation="fadeInDown" data-animation-delay="150">
 					<section id="nav_menu-2" class="widget">
 						<div class="menu-footer-menu-container">
-							<ul id="menu-footer-menu" class="menu">
-								<li id="menu-item-572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-572">
-									<a href="#">Mapa do site</a>
-								</li>
-								<li id="menu-item-573" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-573">
-									<a href="#">Home</a>
-								</li>
-								<li id="menu-item-561" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-561">
-									<a href="#">Quem somos</a>
-								</li>
-								<li id="menu-item-562" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-562">
-									<a href="#">Canal de denúncia</a>
-								</li>
-								<li id="menu-item-563" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-563">
-									<a href="#">Contato</a>
-								</li>
-								<li id="menu-item-563" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-563">
-									<a href="#">Trabalhe conosco</a>
-								</li>
-							</ul>
+							<div class="col-md-6">
+								<ul id="menu-footer-menu" class="menu">
+									<li id="menu-item-572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-572">
+										<h4 class="mapa">Mapa do site</h4>
+									</li>
+									<li id="menu-item-573" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-573">
+										<a href="#">Home</a>
+									</li>
+									<li id="menu-item-561" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-561">
+										<a href="#">Quem somos</a>
+									</li>
+									<li id="menu-item-562" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-562">
+										<a href="#">Canal de denúncia</a>
+									</li>
+								</ul>
+							</div>
+							<div class="col-md-6">
+								<ul id="menu-footer-menu" class="menu">
+									<br>
+									<li id="menu-item-563" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-563">
+										<a href="#">Contato</a>
+									</li>
+									<li id="menu-item-563" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-563">
+										<a href="#">Trabalhe conosco</a>
+									</li>
+								</ul>
+							</div>
 						</div>
 					</section>					
 				</div>
