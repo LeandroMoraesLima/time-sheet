@@ -1,0 +1,30 @@
+#thanks{
+
+	.agradecimento{
+		background-color: #e8e6e4;
+		padding: 205px 0;
+
+		.titulo{
+		    text-align: center;
+		    border: 1px solid #bfbebd;
+			border-radius: 8px;
+			background-color: #f1f0ee;
+			padding: 43px 0 90px;
+
+			h2{
+				font-family: Poppins;
+			    font-size: 40px;
+			    color: #313971;
+			    font-weight: 600;
+			    margin-bottom: 30px;
+			}
+			p{
+				font-family: Poppins;
+			    font-size: 17px;
+			    color: #393939;
+			    font-weight: 500;
+			    margin: 0;
+			}
+		}
+	}
+}

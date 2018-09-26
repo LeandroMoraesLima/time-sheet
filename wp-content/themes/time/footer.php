@@ -43,26 +43,25 @@ Footer Section
 					<section id="social_font_aw-2" class="widget widget_social_font_awesome">
 						<div class="wt_social_networks_sc">
 							<ul class="wt_icon_40 wt_icon_type_1 wt_circle">
-								<li data-alt="Facebook">
+								<li class="logos" data-alt="Facebook">
 									<a href="" class="facebook" rel="nofollow" title="Facebook" target="_blank">
 										<span class="dashicons dashicons-facebook"></span>
 									</a>
 								</li>
-								<li data-alt="twitter">
+								<li class="logos" data-alt="twitter">
 									<a href="" class="twitter" rel="nofollow" title="twitter" target="_blank">
 										<span class="dashicons dashicons-twitter"></span>
 									</a>
 								</li>
-								<li data-alt="Google">
+								<li class="logos" data-alt="Google">
 									<a href="" class="google" rel="nofollow" title="Google" target="_blank">
 										<span class="dashicons dashicons-twitter"></span>
 										</i>
 									</a>
 								</li>
-								<li data-alt="Linkedin">
+								<li class="logos" data-alt="Linkedin">
 									<a href="" class="linkedin" rel="nofollow" title="Linkedin" target="_blank">
-										<i class="fa-linkedin">
-										</i>
+										<span class="dashicons dashicons-facebook"></span>
 									</a>
 								</li>
 							</ul>

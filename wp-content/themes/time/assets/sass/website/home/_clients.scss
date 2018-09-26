@@ -3,6 +3,7 @@
 	.wpb_column{
 
 		.wt_section_heading{
+			margin-bottom: 0;
 
 			h2{
 				font-family: Poppins;
@@ -16,7 +17,27 @@
 			    color: #393939;
 			    font-weight: 500;
 			    padding-bottom: 60px;
+			    margin-bottom: 0;
 			}
+		}		
+		.column{
+			padding: 0;
+
+			.columnlogo{
+				padding: 0;
+
+				.logos{
+					height: 100px;
+				    background-size: 75%;
+				    background-repeat: no-repeat;
+				    background-position: center;
+				    margin-bottom: 65px;
+				    
+					.img{
+						opacity: 0;
+					}
+				}		
+			}	
 		}
 	}
 	.wt-row-container{
@@ -37,7 +58,7 @@
 		.wt_section_heading{
 
 			.titulo{
-				ont-family: Poppins;
+				font-family: Poppins;
 			    font-size: 38px;
 			    color: #fff;
 			    font-weight: 400;

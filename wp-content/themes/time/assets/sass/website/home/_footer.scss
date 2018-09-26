@@ -30,13 +30,36 @@
 				}
 			}
 		}
-		.textwidget{
+		.wt_animate{
 
-			.wt_copyright{
-				font-family: Poppins;
-			    font-size: 14px;
-			    color: #ffffff;
-			    font-weight: 400;
+			.wt_social_networks_sc{
+
+				.wt_icon_40{
+					padding-right: 20px;
+
+					.logos{
+						
+
+						a{
+							background-color: initial;
+
+							.dashicons{
+								font-size: 35px;
+								color: #fff;
+							}
+						}
+					}
+				}
+			}
+
+			.textwidget{
+
+				.wt_copyright{
+					font-family: Poppins;
+				    font-size: 14px;
+				    color: #ffffff;
+				    font-weight: 400;
+				}
 			}
 		}
 		.mc4wp-form{			   
@@ -54,7 +77,7 @@
 				    background-color: #bc640e;
 				}
 			}
-		}
+		} 
 		.widget{
 
 			.wt_subscribe{

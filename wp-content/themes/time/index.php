@@ -128,51 +128,6 @@ Benefits Section
 		</div>
 	</section>
 
-<!-- <section id="benefits" class="wt_section_area" style="padding-top:60px; ">
-	<div class="wt-row-container wt-row-centered" style="border-color: #cfcfcf;border-style: solid;border-width: 0px 0px 1px 0px;">
-		<div class="vc_row wpb_row vc_row-fluid">
-			<div class="container">
-				<div class="row text">
-					<div id="benefits-1-text" class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-12">
-						<div class="vc_column-inner clearfix">
-							<div class="wpb_wrapper wt_wpb_wrapper clearfix wt_animate wt_animate_if_almost_visible" data-animation="fadeInLeft">
-								<div class="wpb_text_column wpb_content_element " >
-									<div class="wpb_wrapper">
-										<h2 class="titulo">VANTAGENS</h2>
-										<ul>
-										 	<li>Controle das horas trabalhadas por projetos, atividade e responséveis;</li>
-										    <li>Controle do custo por hora trabalhada;</li>
-										    <li>Gerenciamento de gastos por centro de custo;</li>
-										    <li>Controle da produtividade por prestador,fornecedor, funcionário;</li>
-										    <li>Alertas sobre o atraso nos apartamentos individuais;</li>
-										    <li>Informações concentradas no dashboard.</li>
-										</ul>
-									</div>
-								</div>
-								<div id="wt_spacer_sc-78149" class="wt_spacer_sc wt_clearboth" style="height:40px; line-height:40px;">
-								</div>
-							</div>
-						</div>
-					</div>
-					<div id="about-1-img" class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-6">
-						<div class="vc_column-inner clearfix">
-							<div class="wpb_wrapper wt_wpb_wrapper clearfix wt_animate wt_animate_if_almost_visible" data-animation="fadeInRight">
-								<div  class="wpb_single_image wpb_content_element vc_align_center">
-									<figure class="wpb_wrapper vc_figure">
-										<div class="vc_single_image-wrapper   vc_box_border_grey">
-											<div class="img" style="background-image: url('<?php echo IMG; ?>/TimeSheet_vantagens.png')"></div>
-										</div>
-									</figure>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section> -->
-
 <!--==========================
 faq Section
 ============================-->
@@ -372,13 +327,41 @@ Clients Section
 									<h3>Temos a honra e o prazer de trabalhar com grandes empresas.</h3>									
 									<div class="wt_clearboth"></div>
 								</div>
-								<div id="wt_clients_sc-10881" class="wt_clients_sc wt_align_center wt_owl_carousel  wt_animate wt_animate_if_visible" data-animation="fadeInUp"  data-owl-speed="600" data-owl-pagSpeed="1000" data-owl-autoPlay="false" data-owl-stopOnHover="" data-owl-navigation="" data-owl-pagination="true" data-owl-items="6" data-owl-itemsDesktop="5" data-owl-itemsSmallDesktop="5" data-owl-itemsTablet="3" data-owl-itemsMobile="2" data-owl-itemsMobileSmall="1">
-									<div class="wt_client item">
-										<img width="360" height="240" src="http://demo.qodux.net/crossway/v1/wp-content/uploads/sites/2/2014/11/client-1.1.png" class="attachment-full" alt="" srcset="http://demo.qodux.net/crossway/v1/wp-content/uploads/sites/2/2014/11/client-1.1.png 360w, http://demo.qodux.net/crossway/v1/wp-content/uploads/sites/2/2014/11/client-1.1-300x200.png 300w" sizes="(max-width: 360px) 100vw, 360px" />
+								<div class="column col-md-12">
+									<div class="container">
+										<div class="row">
+											<div class="columnlogo col-md-2">
+												<div class="logos" style="background-image: url('<?php echo IMG; ?>/logo_clientes.png')">
+													<img class="img" src="<?php echo IMG; ?>/logo_clientes.png">
+												</div>
+											</div>
+											<div class="columnlogo col-md-2">
+												<div class="logos" style="background-image: url('<?php echo IMG; ?>/logo_clientes01.png')">
+													<img class="img" src="<?php echo IMG; ?>/logo_clientes01.png">
+												</div>
+											</div>
+											<div class="columnlogo col-md-2">
+												<div class="logos" style="background-image: url('<?php echo IMG; ?>/logo_clientes02.png')">
+													<img class="img" src="<?php echo IMG; ?>/logo_clientes02.png">
+												</div>
+											</div>
+											<div class="columnlogo col-md-2">
+												<div class="logos" style="background-image: url('<?php echo IMG; ?>/logo_clientes02.png')">
+													<img class="img" src="<?php echo IMG; ?>/logo_clientes02.png">
+												</div>
+											</div>
+											<div class="columnlogo col-md-2">
+												<div class="logos" style="background-image: url('<?php echo IMG; ?>/logo_clientes03.png')">
+													<img class="img" src="<?php echo IMG; ?>/logo_clientes03.png">
+												</div>
+											</div>
+											<div class="columnlogo col-md-2">
+												<div class="logos" style="background-image: url('<?php echo IMG; ?>/logo_clientes04.png')">
+													<img class="img" src="<?php echo IMG; ?>/logo_clientes04.png">
+												</div>
+											</div>
+										</div>
 									</div>
-									<div class="wt_client item">
-										<img width="360" height="240" src="http://demo.qodux.net/crossway/v1/wp-content/uploads/sites/2/2014/11/client-2.1.png" class="attachment-full" alt="" srcset="http://demo.qodux.net/crossway/v1/wp-content/uploads/sites/2/2014/11/client-2.1.png 360w, http://demo.qodux.net/crossway/v1/wp-content/uploads/sites/2/2014/11/client-2.1-300x200.png 300w" sizes="(max-width: 360px) 100vw, 360px" />
-									</div>												
 								</div>
 							</div>
 						</div>
