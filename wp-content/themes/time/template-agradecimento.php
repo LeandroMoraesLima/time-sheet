@@ -6,6 +6,9 @@
 
 get_header();
 
+	if (have_posts()) :
+	    while (have_posts()) : the_post();
+
 ?>
 
 <!--==========================
@@ -19,10 +22,8 @@ Thanks Section
 				<div class="container">
 					<div class="row">
 						<div class="titulo">
-							<h2>OBRIGADO</h2>
-							<p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
-							<p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
-							<p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+							<h2><?php echo get_field('th_titulo'); ?></h2>
+							<p><?php echo get_field('th_texto'); ?></p>
 						</div>
 					</div>
 				</div>
@@ -32,6 +33,8 @@ Thanks Section
 </section>
 
 
+<?php 
+		endwhile;
+	endif; 
 
-
-<?php get_footer(); ?>
+get_footer(); ?>

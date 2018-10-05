@@ -1,0 +1,110 @@
+#cart{
+
+	.text{
+
+		.titulo{
+			font-family: Poppins;
+		    font-size: 38px;
+		    color: #313971;
+		    font-weight: 400;
+		}
+		.woocommerce-cart-form{
+
+			.shop_table{
+				    border: 1px solid #aaaaaa;
+			
+				th{
+					background-color: #eeeeef;	
+					font-size: 17px;
+					font-family: Poppins;	
+					color: #393939;
+		    		font-weight: 600;			
+				}
+				.cart_item{
+					height: 100px;
+
+					.wp-post-image{
+						display: none;
+					}
+				}
+				.actions{
+					background-color: #eeeeef;
+
+					.coupon{
+
+						.input-text{
+							padding: 5px;
+    						margin-right: 15px;
+    						width: 120px;
+    						margin-left: 15px;
+						}
+					}
+					.button{
+						font-family: Poppins;
+					    font-size: 15px;
+					    color: #fff;
+					    font-weight: 500;
+					    background-color: #bc640e;
+					    border-radius: 3px;
+					    margin-right: 15px;
+					}
+				}
+			}
+		}
+		.cart-collaterals{
+			margin-bottom: 60px;
+
+			h2{
+				font-family: Poppins;
+			    font-size: 28px;
+			    color: #313971;
+			    font-weight: 400;
+			}	
+			.shop_table{
+				background-color: #eeeeef;
+				margin: 0 -1px 25px 0;
+				padding-bottom: 10px;
+    			padding-top: 10px;
+
+			
+				.cart-subtotal{
+
+					th{
+						font-family: Poppins;
+					    font-size: 15px;
+					    color: #393939;
+					    font-weight: 700;
+					}
+					.amount{
+						font-family: Poppins;
+					    font-size: 15px;
+					    color: #393939;
+					    font-weight: 600;
+					}
+				}
+				.order-total{
+
+					th{
+						font-family: Poppins;
+					    font-size: 13px;
+					    color: #393939;
+					    font-weight: 900;
+					}
+				}
+			}	
+			.wc-proceed-to-checkout{
+				text-align: center;
+
+				.checkout-button{
+					font-family: Poppins;
+				    font-size: 15px;
+				    color: #fff;
+				    font-weight: 500;
+				    background-color: #bc640e;
+				    border-radius: 3px;
+				    padding: 15px;
+				}
+			}	
+		}
+	}
+}  

@@ -71,6 +71,12 @@
 		}
 		.wt_pricing_content{
 
+			h3{
+		    	font-family: Poppins;
+			    font-size: 30px;
+			    color: #363636;
+			    font-weight: 500;
+		    }
 			ul{
 
 				li{
@@ -130,8 +136,7 @@
 
 						.btn{
 							width: 100%;
-							padding: 4px 16px;
-	    					font-family: Poppins;
+							font-family: Poppins;
 						    font-size: 18px;
 						    background-color: #bc640e;
 						    font-weight: 700;

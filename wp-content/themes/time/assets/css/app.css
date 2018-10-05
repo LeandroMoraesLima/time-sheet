@@ -12,14 +12,14 @@
   height: 40px;
 }
 /* line 20, ../sass/website/home/_header.scss */
-#wt_header .wt_nav_top .menu .menu-item span {
-  font-family: Poppins;
-  font-size: 13px;
-  color: #393939;
+#wt_header .wt_nav_top .menu .menu-item a {
+  font-family: Poppins !important;
+  font-size: 13px !important;
+  color: #393939 !important;
 }
 /* line 25, ../sass/website/home/_header.scss */
-#wt_header .wt_nav_top .menu .menu-item span:hover {
-  color: #428bca;
+#wt_header .wt_nav_top .menu .menu-item a:hover {
+  color: #428bca !important;
 }
 
 /* line 1, ../sass/website/home/_slider.scss */
@@ -46,17 +46,15 @@
 #wt_containerWrapper .wt_section_area .vc_row .text {
   display: flex;
   align-items: center;
-  height: 50vh;
-  min-height: 500px;
 }
-/* line 29, ../sass/website/home/_slider.scss */
+/* line 27, ../sass/website/home/_slider.scss */
 #wt_containerWrapper .wt_section_area .vc_row .text .wpb_wrapper h1 {
   font-family: Poppins;
   font-size: 40px;
   color: #ffffff;
   font-weight: 800;
 }
-/* line 35, ../sass/website/home/_slider.scss */
+/* line 33, ../sass/website/home/_slider.scss */
 #wt_containerWrapper .wt_section_area .vc_row .text .wpb_wrapper h4 {
   font-family: Poppins;
   font-size: 18px;
@@ -64,33 +62,33 @@
   font-weight: 300;
   line-height: 1.4em;
 }
-/* line 42, ../sass/website/home/_slider.scss */
+/* line 40, ../sass/website/home/_slider.scss */
 #wt_containerWrapper .wt_section_area .vc_row .text .wpb_wrapper h4 span {
   font-family: Poppins;
   font-size: 18px;
   color: #ffffff;
   font-weight: 600;
 }
-/* line 53, ../sass/website/home/_slider.scss */
+/* line 51, ../sass/website/home/_slider.scss */
 #wt_containerWrapper .wt_section_area .vc_row .text .wpb_column .wpcf7-form {
   background: rgba(51, 71, 87, 0.8);
   border-radius: 3px;
 }
-/* line 58, ../sass/website/home/_slider.scss */
+/* line 56, ../sass/website/home/_slider.scss */
 #wt_containerWrapper .wt_section_area .vc_row .text .wpb_column .wpcf7-form h2 {
   font-family: Poppins;
   font-size: 20px;
   color: #ffffff;
   font-weight: 500;
 }
-/* line 67, ../sass/website/home/_slider.scss */
+/* line 65, ../sass/website/home/_slider.scss */
 #wt_containerWrapper .wt_section_area .vc_row .text .wpb_column .wpcf7-form .wpcf7-form-control-wrap .wpcf7-form-control {
   margin-bottom: 10px;
   font-family: Poppins;
   color: #bebebe;
   font-weight: 400;
 }
-/* line 74, ../sass/website/home/_slider.scss */
+/* line 72, ../sass/website/home/_slider.scss */
 #wt_containerWrapper .wt_section_area .vc_row .text .wpb_column .wpcf7-form .wpcf7-submit {
   font-family: Poppins;
   font-size: 18px;
@@ -253,14 +251,21 @@
   color: #393939;
   font-weight: 500;
 }
-/* line 76, ../sass/website/home/_pricing.scss */
+/* line 74, ../sass/website/home/_pricing.scss */
+#pricing .vc_row .wt_pricing_content h3 {
+  font-family: Poppins;
+  font-size: 30px;
+  color: #363636;
+  font-weight: 500;
+}
+/* line 82, ../sass/website/home/_pricing.scss */
 #pricing .vc_row .wt_pricing_content ul li {
   font-family: Poppins;
   font-size: 15px;
   color: #393939;
   font-weight: 500;
 }
-/* line 87, ../sass/website/home/_pricing.scss */
+/* line 93, ../sass/website/home/_pricing.scss */
 #pricing .vc_row .wt_pricing_btn .btn {
   font-family: Poppins;
   font-size: 15px;
@@ -269,47 +274,46 @@
   background-color: #bc640e;
   border-radius: 3px;
 }
-/* line 99, ../sass/website/home/_pricing.scss */
+/* line 105, ../sass/website/home/_pricing.scss */
 #pricing .wpb_wrapper #enviar {
   max-width: 100%;
 }
-/* line 102, ../sass/website/home/_pricing.scss */
+/* line 108, ../sass/website/home/_pricing.scss */
 #pricing .wpb_wrapper #enviar .cont {
   background-color: #f2f2f2;
   padding: 0px;
   margin: 0 13px;
 }
-/* line 108, ../sass/website/home/_pricing.scss */
+/* line 114, ../sass/website/home/_pricing.scss */
 #pricing .wpb_wrapper #enviar .cont .titulo {
   padding-top: 40px;
 }
-/* line 111, ../sass/website/home/_pricing.scss */
+/* line 117, ../sass/website/home/_pricing.scss */
 #pricing .wpb_wrapper #enviar .cont .titulo h2 {
   font-family: Poppins;
   font-size: 26px;
   color: #393939;
   font-weight: 500;
 }
-/* line 118, ../sass/website/home/_pricing.scss */
+/* line 124, ../sass/website/home/_pricing.scss */
 #pricing .wpb_wrapper #enviar .cont .campo {
   padding-bottom: 45px;
 }
-/* line 121, ../sass/website/home/_pricing.scss */
+/* line 127, ../sass/website/home/_pricing.scss */
 #pricing .wpb_wrapper #enviar .cont .campo .form {
   padding-top: 10px;
 }
-/* line 124, ../sass/website/home/_pricing.scss */
+/* line 130, ../sass/website/home/_pricing.scss */
 #pricing .wpb_wrapper #enviar .cont .campo .form .form-control {
   border-radius: 0px;
 }
-/* line 128, ../sass/website/home/_pricing.scss */
+/* line 134, ../sass/website/home/_pricing.scss */
 #pricing .wpb_wrapper #enviar .cont .campo .form-enviar {
   padding-top: 10px;
 }
-/* line 131, ../sass/website/home/_pricing.scss */
+/* line 137, ../sass/website/home/_pricing.scss */
 #pricing .wpb_wrapper #enviar .cont .campo .form-enviar .btn {
   width: 100%;
-  padding: 4px 16px;
   font-family: Poppins;
   font-size: 18px;
   background-color: #bc640e;
@@ -356,94 +360,56 @@
 #clients .wpb_column .column .columnlogo .logos .img {
   opacity: 0;
 }
-/* line 43, ../sass/website/home/_clients.scss */
-#clients .wt-row-container {
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  /* &:before{
-  	content: '';
-  	position: absolute;
-  	width: 100%;
-  	height: 100%;
-  	background-color: rgba(0, 146, 255, 0.4);
-  	left: 0px;
-  	right: 0px;
-  } */
-}
-/* line 60, ../sass/website/home/_clients.scss */
-#clients .wt-row-container .wt_section_heading .titulo {
-  font-family: Poppins;
-  font-size: 38px;
-  color: #fff;
-  font-weight: 400;
-}
-/* line 67, ../sass/website/home/_clients.scss */
-#clients .wt-row-container .wt_section_heading .text {
-  font-family: Poppins;
-  font-size: 17px;
-  color: #fff;
-  font-weight: 500;
-}
-/* line 78, ../sass/website/home/_clients.scss */
-#clients .wt-row-container .wpb_raw_code .wpb_wrapper .btn {
-  font-family: Poppins;
-  font-size: 18px;
-  background-color: #bc640e;
-  font-weight: 700;
-  margin-right: 20px;
-  border: none;
-}
 
 /* line 3, ../sass/website/home/_footer.scss */
 #wt_footerWrapper .clearfix {
   background-color: #262a41;
 }
-/* line 12, ../sass/website/home/_footer.scss */
-#wt_footerWrapper .clearfix .wt_footer_col .widget .menu .menu-item {
-  border: none;
-  padding: 0px 0;
-}
-/* line 16, ../sass/website/home/_footer.scss */
-#wt_footerWrapper .clearfix .wt_footer_col .widget .menu .menu-item .mapa {
+/* line 10, ../sass/website/home/_footer.scss */
+#wt_footerWrapper .clearfix .wt_footer_col .widget .mapa {
   font-family: Poppins;
   font-size: 14px;
   color: #ffffff;
   font-weight: 600;
 }
-/* line 23, ../sass/website/home/_footer.scss */
+/* line 18, ../sass/website/home/_footer.scss */
+#wt_footerWrapper .clearfix .wt_footer_col .widget .menu .menu-item {
+  border: none;
+  padding: 0px 0;
+}
+/* line 24, ../sass/website/home/_footer.scss */
 #wt_footerWrapper .clearfix .wt_footer_col .widget .menu .menu-item a {
   font-family: Poppins;
   font-size: 14px;
   color: #ffffff;
   font-weight: 300;
 }
-/* line 37, ../sass/website/home/_footer.scss */
+/* line 38, ../sass/website/home/_footer.scss */
 #wt_footerWrapper .clearfix .wt_animate .wt_social_networks_sc .wt_icon_40 {
   padding-right: 20px;
 }
-/* line 43, ../sass/website/home/_footer.scss */
+/* line 44, ../sass/website/home/_footer.scss */
 #wt_footerWrapper .clearfix .wt_animate .wt_social_networks_sc .wt_icon_40 .logos a {
   background-color: initial;
 }
-/* line 46, ../sass/website/home/_footer.scss */
+/* line 47, ../sass/website/home/_footer.scss */
 #wt_footerWrapper .clearfix .wt_animate .wt_social_networks_sc .wt_icon_40 .logos a .dashicons {
   font-size: 35px;
   color: #fff;
 }
-/* line 57, ../sass/website/home/_footer.scss */
+/* line 58, ../sass/website/home/_footer.scss */
 #wt_footerWrapper .clearfix .wt_animate .textwidget .wt_copyright {
   font-family: Poppins;
   font-size: 14px;
   color: #ffffff;
   font-weight: 400;
 }
-/* line 68, ../sass/website/home/_footer.scss */
+/* line 69, ../sass/website/home/_footer.scss */
 #wt_footerWrapper .clearfix .mc4wp-form p .form-control {
   background-color: #fff !important;
   border-color: #fff !important;
 }
-/* line 72, ../sass/website/home/_footer.scss */
+/* line 73, ../sass/website/home/_footer.scss */
 #wt_footerWrapper .clearfix .mc4wp-form p .mc4wp_submit {
   font-family: Poppins;
   font-size: 12px;
@@ -451,7 +417,7 @@
   font-weight: 700;
   background-color: #bc640e;
 }
-/* line 83, ../sass/website/home/_footer.scss */
+/* line 84, ../sass/website/home/_footer.scss */
 #wt_footerWrapper .clearfix .widget .wt_subscribe {
   font-family: Poppins;
   font-size: 14px !important;
@@ -461,24 +427,64 @@
 }
 
 /* Footer Black Section */
-/* line 99, ../sass/website/home/_footer.scss */
+/* line 100, ../sass/website/home/_footer.scss */
 #black .titulo {
   text-align: center;
   padding: 15px;
 }
-/* line 103, ../sass/website/home/_footer.scss */
+/* line 104, ../sass/website/home/_footer.scss */
 #black .titulo span {
   font-family: Poppins;
   font-size: 17px;
   color: #7f7f7f;
   font-weight: 400;
 }
-/* line 109, ../sass/website/home/_footer.scss */
+/* line 110, ../sass/website/home/_footer.scss */
 #black .titulo a {
   font-family: Poppins;
   font-size: 17px;
   color: #cc2228;
   font-weight: 400;
+}
+
+/* line 3, ../sass/website/home/_slider-down.scss */
+#slider-down .wt-row-container {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* line 8, ../sass/website/home/_slider-down.scss */
+#slider-down .wt-row-container:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 146, 255, 0.4);
+  left: 0px;
+  right: 0px;
+}
+/* line 19, ../sass/website/home/_slider-down.scss */
+#slider-down .wt-row-container .wt_section_heading .titulo {
+  font-family: Poppins;
+  font-size: 38px;
+  color: #fff;
+  font-weight: 400;
+}
+/* line 26, ../sass/website/home/_slider-down.scss */
+#slider-down .wt-row-container .wt_section_heading .text {
+  font-family: Poppins;
+  font-size: 17px;
+  color: #fff;
+  font-weight: 500;
+}
+/* line 37, ../sass/website/home/_slider-down.scss */
+#slider-down .wt-row-container .wpb_raw_code .wpb_wrapper .btn {
+  font-family: Poppins;
+  font-size: 18px;
+  background-color: #bc640e;
+  font-weight: 700;
+  margin-right: 20px;
+  border: none;
 }
 
 /* line 1, ../sass/website/page/_denuncia.scss */
@@ -635,42 +641,42 @@
   font-weight: 600;
   margin-bottom: 70px;
 }
-/* line 16, ../sass/website/page/_organizacao-otimizacao.scss */
-#Organization-optimization #Organization .text h3 {
+/* line 13, ../sass/website/page/_organizacao-otimizacao.scss */
+#Organization-optimization #Organization h3 {
   font-family: Poppins;
   font-size: 19px;
   color: #363636;
   font-weight: 600;
   margin-bottom: 20px;
 }
-/* line 23, ../sass/website/page/_organizacao-otimizacao.scss */
-#Organization-optimization #Organization .text p {
+/* line 20, ../sass/website/page/_organizacao-otimizacao.scss */
+#Organization-optimization #Organization p {
   font-family: Poppins;
   font-size: 15px;
   color: #363636;
   font-weight: 500;
   margin-bottom: 30px;
 }
-/* line 33, ../sass/website/page/_organizacao-otimizacao.scss */
+/* line 29, ../sass/website/page/_organizacao-otimizacao.scss */
 #Organization-optimization #Organization .image .img {
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
   height: 370px;
 }
-/* line 40, ../sass/website/page/_organizacao-otimizacao.scss */
+/* line 36, ../sass/website/page/_organizacao-otimizacao.scss */
 #Organization-optimization #Organization .Organization2 {
   margin-top: 80px;
   margin-bottom: 85px;
 }
-/* line 46, ../sass/website/page/_organizacao-otimizacao.scss */
+/* line 42, ../sass/website/page/_organizacao-otimizacao.scss */
 #Organization-optimization #Organization .Organization2 .image2 .img2 {
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
   height: 370px;
 }
-/* line 55, ../sass/website/page/_organizacao-otimizacao.scss */
+/* line 51, ../sass/website/page/_organizacao-otimizacao.scss */
 #Organization-optimization #Organization .Organization2 .text2 .campo {
   font-family: Poppins;
   font-size: 15px;
@@ -678,7 +684,7 @@
   font-weight: 500;
   margin-top: 47px;
 }
-/* line 62, ../sass/website/page/_organizacao-otimizacao.scss */
+/* line 58, ../sass/website/page/_organizacao-otimizacao.scss */
 #Organization-optimization #Organization .Organization2 .text2 .campo1 {
   font-family: Poppins;
   font-size: 15px;
@@ -686,44 +692,45 @@
   font-weight: 500;
   margin-top: 20px;
 }
-/* line 72, ../sass/website/page/_organizacao-otimizacao.scss */
-#Organization-optimization #Organization .texto {
+/* line 70, ../sass/website/page/_organizacao-otimizacao.scss */
+#Organization-optimization #Organization .sub-texto .texto {
   font-family: Poppins;
   font-size: 15px;
   color: #363636;
   font-weight: 500;
   margin-bottom: 160px;
 }
-/* line 80, ../sass/website/page/_organizacao-otimizacao.scss */
+/* line 79, ../sass/website/page/_organizacao-otimizacao.scss */
 #Organization-optimization .wt-row-container {
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
-  /* &:before{
-  	content: '';
-  	position: absolute;
-  	width: 100%;
-  	height: 100%;
-  	background-color: rgba(0, 146, 255, 0.4);
-  	left: 0px;
-  	right: 0px;
-  } */
 }
-/* line 97, ../sass/website/page/_organizacao-otimizacao.scss */
+/* line 84, ../sass/website/page/_organizacao-otimizacao.scss */
+#Organization-optimization .wt-row-container:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 146, 255, 0.4);
+  left: 0px;
+  right: 0px;
+}
+/* line 95, ../sass/website/page/_organizacao-otimizacao.scss */
 #Organization-optimization .wt-row-container .wt_section_heading .titulo {
   font-family: Poppins;
   font-size: 38px;
   color: #fff;
   font-weight: 400;
 }
-/* line 104, ../sass/website/page/_organizacao-otimizacao.scss */
+/* line 102, ../sass/website/page/_organizacao-otimizacao.scss */
 #Organization-optimization .wt-row-container .wt_section_heading .text {
   font-family: Poppins;
   font-size: 17px;
   color: #fff;
   font-weight: 500;
 }
-/* line 115, ../sass/website/page/_organizacao-otimizacao.scss */
+/* line 113, ../sass/website/page/_organizacao-otimizacao.scss */
 #Organization-optimization .wt-row-container .wpb_raw_code .wpb_wrapper .btn {
   font-family: Poppins;
   font-size: 18px;
@@ -821,7 +828,7 @@
   font-weight: 400;
   margin-bottom: 25px;
 }
-/* line 90, ../sass/website/page/_nossos-planos.scss */
+/* line 89, ../sass/website/page/_nossos-planos.scss */
 #coluna .col .texto .text {
   font-family: Poppins;
   font-size: 18px;
@@ -829,7 +836,14 @@
   font-weight: 500;
   margin-bottom: 35px;
 }
-/* line 97, ../sass/website/page/_nossos-planos.scss */
+/* line 96, ../sass/website/page/_nossos-planos.scss */
+#coluna .col .texto h3 {
+  font-family: Poppins;
+  font-size: 30px;
+  color: #363636;
+  font-weight: 400;
+}
+/* line 102, ../sass/website/page/_nossos-planos.scss */
 #coluna .col .texto p {
   font-family: Poppins;
   font-size: 18px;
@@ -837,14 +851,14 @@
   font-weight: 500;
   margin-bottom: 25px;
 }
-/* line 104, ../sass/website/page/_nossos-planos.scss */
+/* line 109, ../sass/website/page/_nossos-planos.scss */
 #coluna .col .texto p span {
   font-family: Poppins;
   font-size: 37px;
   color: #d56400;
   font-weight: 500;
 }
-/* line 113, ../sass/website/page/_nossos-planos.scss */
+/* line 118, ../sass/website/page/_nossos-planos.scss */
 #coluna .col .texto .botao1 .btn {
   font-family: Poppins;
   font-size: 18px;
@@ -854,11 +868,11 @@
   border-radius: 3px;
 }
 
-/* line 125, ../sass/website/page/_nossos-planos.scss */
+/* line 130, ../sass/website/page/_nossos-planos.scss */
 .coluna2 {
   margin-bottom: 100px;
 }
-/* line 130, ../sass/website/page/_nossos-planos.scss */
+/* line 135, ../sass/website/page/_nossos-planos.scss */
 .coluna2 .texto2 .colum2 {
   font-family: Poppins;
   font-size: 40px;
@@ -866,7 +880,7 @@
   font-weight: 400;
   margin-bottom: 25px;
 }
-/* line 138, ../sass/website/page/_nossos-planos.scss */
+/* line 143, ../sass/website/page/_nossos-planos.scss */
 .coluna2 .texto2 .text2 {
   font-family: Poppins;
   font-size: 18px;
@@ -874,7 +888,14 @@
   font-weight: 500;
   margin-bottom: 35px;
 }
-/* line 145, ../sass/website/page/_nossos-planos.scss */
+/* line 150, ../sass/website/page/_nossos-planos.scss */
+.coluna2 .texto2 h3 {
+  font-family: Poppins;
+  font-size: 30px;
+  color: #363636;
+  font-weight: 400;
+}
+/* line 156, ../sass/website/page/_nossos-planos.scss */
 .coluna2 .texto2 p {
   font-family: Poppins;
   font-size: 18px;
@@ -882,14 +903,14 @@
   font-weight: 500;
   margin-bottom: 35px;
 }
-/* line 152, ../sass/website/page/_nossos-planos.scss */
+/* line 163, ../sass/website/page/_nossos-planos.scss */
 .coluna2 .texto2 p span {
   font-family: Poppins;
   font-size: 37px;
   color: #d56400;
   font-weight: 500;
 }
-/* line 161, ../sass/website/page/_nossos-planos.scss */
+/* line 172, ../sass/website/page/_nossos-planos.scss */
 .coluna2 .texto2 .botao2 .btn2 {
   font-family: Poppins;
   font-size: 18px;
@@ -898,8 +919,53 @@
   border: none;
   border-radius: 3px;
 }
-/* line 173, ../sass/website/page/_nossos-planos.scss */
+/* line 184, ../sass/website/page/_nossos-planos.scss */
 .coluna2 .img .image2 {
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 370px;
+}
+
+/* line 196, ../sass/website/page/_nossos-planos.scss */
+.coluna3 .texto3 .colum3 {
+  font-family: Poppins;
+  font-size: 40px;
+  color: #363636;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+/* line 203, ../sass/website/page/_nossos-planos.scss */
+.coluna3 .texto3 .text3 {
+  font-family: Poppins;
+  font-size: 17px;
+  color: #393939;
+  font-weight: 500;
+}
+/* line 211, ../sass/website/page/_nossos-planos.scss */
+.coluna3 .texto3 .form .form-control {
+  width: 67%;
+  height: 50px;
+  color: #727277;
+  font-size: 14px;
+  border: 1px solid #727277;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  background-color: #e8e6e4;
+  border-color: #727277 !important;
+}
+/* line 225, ../sass/website/page/_nossos-planos.scss */
+.coluna3 .texto3 .form-enviar .btn {
+  width: 67%;
+  height: 50px;
+  font-family: Poppins;
+  font-size: 18px;
+  background-color: #bc640e;
+  font-weight: 700;
+  margin: 0;
+}
+/* line 238, ../sass/website/page/_nossos-planos.scss */
+.coluna3 .img .image3 {
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
@@ -934,4 +1000,212 @@
   color: #393939;
   font-weight: 500;
   margin: 0;
+}
+
+/* line 1, ../sass/website/page/_choice.scss */
+#choice {
+  padding-top: 120px;
+  padding-bottom: 60px;
+}
+/* line 9, ../sass/website/page/_choice.scss */
+#choice .text .wpb_wrapper .titulo {
+  font-family: Poppins;
+  font-size: 38px;
+  color: #313971;
+  font-weight: 400;
+}
+/* line 15, ../sass/website/page/_choice.scss */
+#choice .text .wpb_wrapper h3 {
+  font-family: Poppins;
+  font-size: 30px;
+  color: #313971;
+  font-weight: 400 !important;
+}
+/* line 21, ../sass/website/page/_choice.scss */
+#choice .text .wpb_wrapper h4 {
+  font-family: Poppins;
+  font-size: 25px;
+  color: #313971;
+  font-weight: 400 !important;
+}
+/* line 27, ../sass/website/page/_choice.scss */
+#choice .text .wpb_wrapper p {
+  font-family: Poppins;
+  font-size: 16px;
+  color: #393939;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+/* line 34, ../sass/website/page/_choice.scss */
+#choice .text .wpb_wrapper p .dashicons {
+  font-size: 25px;
+  width: 30px;
+}
+/* line 41, ../sass/website/page/_choice.scss */
+#choice .text .wpb_wrapper .wpcf7 .wpcf7-form-control {
+  width: 67%;
+  height: 50px;
+  color: #727277;
+  font-size: 14px;
+  border: 1px solid #727277;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  border-color: #727277;
+  background-color: #e8e6e4;
+}
+/* line 52, ../sass/website/page/_choice.scss */
+#choice .text .wpb_wrapper .wpcf7 .wpcf7-file {
+  padding-top: 13px;
+}
+/* line 55, ../sass/website/page/_choice.scss */
+#choice .text .wpb_wrapper .wpcf7 .wpcf7-submit {
+  width: 67%;
+  height: 50px;
+  font-family: Poppins;
+  font-size: 18px;
+  background-color: #bc640e;
+  font-weight: 700;
+  margin: 0;
+}
+
+/* line 5, ../sass/website/page/_cart.scss */
+#cart .text .titulo {
+  font-family: Poppins;
+  font-size: 38px;
+  color: #313971;
+  font-weight: 400;
+}
+/* line 13, ../sass/website/page/_cart.scss */
+#cart .text .woocommerce-cart-form .shop_table {
+  border: 1px solid #aaaaaa;
+}
+/* line 16, ../sass/website/page/_cart.scss */
+#cart .text .woocommerce-cart-form .shop_table th {
+  background-color: #eeeeef;
+  font-size: 17px;
+  font-family: Poppins;
+  color: #393939;
+  font-weight: 600;
+}
+/* line 23, ../sass/website/page/_cart.scss */
+#cart .text .woocommerce-cart-form .shop_table .cart_item {
+  height: 100px;
+}
+/* line 26, ../sass/website/page/_cart.scss */
+#cart .text .woocommerce-cart-form .shop_table .cart_item .wp-post-image {
+  display: none;
+}
+/* line 30, ../sass/website/page/_cart.scss */
+#cart .text .woocommerce-cart-form .shop_table .actions {
+  background-color: #eeeeef;
+}
+/* line 35, ../sass/website/page/_cart.scss */
+#cart .text .woocommerce-cart-form .shop_table .actions .coupon .input-text {
+  padding: 5px;
+  margin-right: 15px;
+  width: 120px;
+  margin-left: 15px;
+}
+/* line 42, ../sass/website/page/_cart.scss */
+#cart .text .woocommerce-cart-form .shop_table .actions .button {
+  font-family: Poppins;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 500;
+  background-color: #bc640e;
+  border-radius: 3px;
+  margin-right: 15px;
+}
+/* line 54, ../sass/website/page/_cart.scss */
+#cart .text .cart-collaterals {
+  margin-bottom: 60px;
+}
+/* line 57, ../sass/website/page/_cart.scss */
+#cart .text .cart-collaterals h2 {
+  font-family: Poppins;
+  font-size: 28px;
+  color: #313971;
+  font-weight: 400;
+}
+/* line 63, ../sass/website/page/_cart.scss */
+#cart .text .cart-collaterals .shop_table {
+  background-color: #eeeeef;
+  margin: 0 -1px 25px 0;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+/* line 72, ../sass/website/page/_cart.scss */
+#cart .text .cart-collaterals .shop_table .cart-subtotal th {
+  font-family: Poppins;
+  font-size: 15px;
+  color: #393939;
+  font-weight: 700;
+}
+/* line 78, ../sass/website/page/_cart.scss */
+#cart .text .cart-collaterals .shop_table .cart-subtotal .amount {
+  font-family: Poppins;
+  font-size: 15px;
+  color: #393939;
+  font-weight: 600;
+}
+/* line 87, ../sass/website/page/_cart.scss */
+#cart .text .cart-collaterals .shop_table .order-total th {
+  font-family: Poppins;
+  font-size: 13px;
+  color: #393939;
+  font-weight: 900;
+}
+/* line 95, ../sass/website/page/_cart.scss */
+#cart .text .cart-collaterals .wc-proceed-to-checkout {
+  text-align: center;
+}
+/* line 98, ../sass/website/page/_cart.scss */
+#cart .text .cart-collaterals .wc-proceed-to-checkout .checkout-button {
+  font-family: Poppins;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 500;
+  background-color: #bc640e;
+  border-radius: 3px;
+  padding: 15px;
+}
+
+/* line 1, ../sass/website/page/_checkout.scss */
+#checkout {
+  background-color: #e8e6e4;
+}
+/* line 6, ../sass/website/page/_checkout.scss */
+#checkout .text .titulo {
+  font-family: Poppins;
+  font-size: 38px;
+  color: #313971;
+  font-weight: 400;
+}
+/* line 12, ../sass/website/page/_checkout.scss */
+#checkout .text .woocommerce {
+  background-color: #f1f0ee;
+  border: 1px solid #bfbebd;
+  border-radius: 20px;
+  padding: 40px;
+  margin-bottom: 100px;
+}
+/* line 21, ../sass/website/page/_checkout.scss */
+#checkout .text .woocommerce .woocommerce-input-wrapper .input-text {
+  padding: 10px;
+  border-radius: 2px;
+  border: 1px solid #aaaaaa;
+  color: #727277;
+  font-size: 14px;
+  font-family: Poppins;
+  font-weight: 400;
+}
+/* line 33, ../sass/website/page/_checkout.scss */
+#checkout .text .woocommerce .form-row .button {
+  width: 50%;
+  font-family: Poppins;
+  font-size: 18px;
+  background-color: #bc640e;
+  font-weight: 700;
+  margin-left: 168px;
+  float: none !important;
 }

@@ -6,6 +6,12 @@ template name: Outros produtos
 
 get_header();
 
+
+	if (have_posts()) :
+	    while (have_posts()) : the_post();
+			// check if the repeater field has rows of data
+			if( have_rows('ot_outros_produtos') ):				
+
 ?>
 
 <!--==========================
@@ -17,39 +23,61 @@ other-products Section
 		<div class="row">
 			<div class="col-md-12">
 				<div class="container">
-					<h2 class="titulo">OUTROS PRODUTOS</h2>
-					<p>Conheça nossos outros produtos xxxxxxxxxxxxxx.</p>
+					<h2 class="titulo"><?php echo get_field('ot_titulo'); ?></h2>
+					<p><?php echo get_field('ot_sub_titulo'); ?></p>
+
+					<?php
+						// loop through the rows of data
+						while ( have_rows('ot_outros_produtos') ) : the_row();
+							// var_dump(get_sub_field ('ot_imagem'));
+							$imagem = get_sub_field('ot_imagem');
+							$logo = get_sub_field('ot_logo');
+							if( $i % 2 == 0 ):
+					?>
+
 					<div class="row">
 						<div class="img col-md-6">							
-							<div class="image" style="background-image: url('<?php echo IMG; ?>/buildings-city.jpg');">								
+							<div class="image" style="background-image: url('<?php echo $imagem; ?>');">								
 							</div>							
 						</div>													
 						<div class="text col-md-6">
-							<div class="logo" style="background-image: url('<?php echo IMG; ?>/logo-legal-etica.png');">								
+							<div class="logo" style="background-image: url('<?php echo $logo; ?>');">								
 							</div>
-							<h4>Combate à corrupção</h4>
-							<p>O Legal Ética é um canal de ética voltado ao combate  à corrupção no ambiente corporativo, que permite que sugestões, elogios e denúncias, ou o reporter de situações que não traduzem o ideal da campanha, sejam feitos de maneira fácil e sigilosa por seus colaboradores.</p>
+							<h4><?php echo get_sub_field('ot_titulo_do_cliente'); ?></h4>
+							<p><?php echo get_sub_field('ot_texto_do_cliente'); ?></p>
 							<div class="botao">
-								<a class="btn btn-primary btn-lg" href="#">IR PARA A PÁGINA</a>
+								<a class="btn btn-primary btn-lg" href="<?php echo get_sub_field('ot_link_do_botao'); ?>"><?php echo get_sub_field('ot_titulo_do_botao'); ?></a>
 							</div>
 						</div>
 					</div>	
+
+					<?php else: ?>
+
 					<div class="other2">
 						<div class="row">
 							<div class="img2 col-md-6">							
-								<div class="logo2" style="background-image: url('<?php echo IMG; ?>/logo-legal-control1.png');">								
+								<div class="logo2" style="background-image: url('<?php echo $logo; ?>');">								
 								</div>
-								<p>O <span>Legal Control </span>é um software de gestão de contratos, processos judiciais, projetos, procuração e terceiros.A ferramenta possui uma plataforma de GED que facilita o controle, armazenamento, compartilhamento e recuperção das informações da empresas, permitindo que usuários acessem os documentos da empresa de forma ágil e segurança.</p>
+								<p><?php echo get_sub_field('ot_texto_do_cliente'); ?></p>
 								<div class="botao2">
-									<a class="btn btn-primary btn-lg" href="#">IR PARA A PÁGINA</a>
+									<a class="btn btn-primary btn-lg" href="<?php echo get_sub_field('ot_link_do_botao'); ?>"><?php echo get_sub_field('ot_titulo_do_botao'); ?></a>
 								</div>								
 							</div>													
 							<div class="text2 col-md-6">
-								<div class="image2" style="background-image: url('<?php echo IMG; ?>/12338.jpg');">								
+								<div class="image2" style="background-image: url('<?php echo $imagem; ?>');">								
 								</div>
-							</div>
+							</div>							
 						</div>
 					</div>
+
+					<?php  endif; ?>
+
+					<?php $i++; ?>
+
+					<?php endwhile; ?>
+
+					<?php  endif; ?>
+
 				</div>
 			</div>
 		</div>
@@ -57,4 +85,8 @@ other-products Section
 </section>
 
 
-<?php get_footer(); ?>
+<?php 
+		endwhile;
+	endif; 
+
+get_footer(); ?>

@@ -17,16 +17,15 @@
 			
 			.menu-item{
 
-				span{
-					font-family: Poppins;
-				    font-size: 13px;
-				    color: #393939;
+				a{
+					font-family: Poppins !important;
+				    font-size: 13px !important;
+				    color: #393939 !important;
 
 				    &:hover{
-				    	color: #428bca;
-				    }
+				    	color: #428bca !important;
+				    }					
 				}
-
 			}
 		}
 	}

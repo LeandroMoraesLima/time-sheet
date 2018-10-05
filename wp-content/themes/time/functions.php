@@ -64,4 +64,21 @@
 
 	add_action('wp_enqueue_scripts', 'load_scripts');
 	
-?>
+
+if( function_exists('acf_add_options_page') ) {
+ 
+	$option_page = acf_add_options_page(array(
+		'page_title' 	=> 'Opções',
+		'menu_title' 	=> 'Opções',
+		'menu_slug' 	=> 'opcoes',
+		'capability' 	=> 'edit_posts',
+		'redirect' 	=> false
+	));
+ 
+}
+
+register_nav_menus( array(
+	'header' => 'header Menu',
+	'footer' => 'Footer Menu',
+	'footer2' => 'Footer Menu2',
+) );

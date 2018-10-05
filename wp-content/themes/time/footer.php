@@ -1,3 +1,11 @@
+<?php 
+
+	if (have_posts()) :
+	    while (have_posts()) : the_post();
+
+?>
+
+
 <!--==========================
 Footer Section
 ============================-->
@@ -10,32 +18,26 @@ Footer Section
 					<section id="nav_menu-2" class="widget">
 						<div class="menu-footer-menu-container">
 							<div class="col-md-6">
-								<ul id="menu-footer-menu" class="menu">
-									<li id="menu-item-572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-572">
-										<h4 class="mapa">Mapa do site</h4>
-									</li>
-									<li id="menu-item-573" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-573">
-										<a href="#">Home</a>
-									</li>
-									<li id="menu-item-561" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-561">
-										<a href="#">Quem somos</a>
-									</li>
-									<li id="menu-item-562" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-562">
-										<a href="#">Canal de denúncia</a>
-									</li>
-								</ul>
+								<h4 class="mapa">Mapa do site</h4>
+
+							<?php wp_nav_menu(array(
+								'theme_location' => 'footer',
+								'menu_class' => 'menu',
+								'menu_id' => 'menu-footer-menu',
+								'container' => ''
+							) ); ?>
+
 							</div>
-							<div class="col-md-6">
-								<ul id="menu-footer-menu" class="menu">
-									<br>
-									<li id="menu-item-563" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-563">
-										<a href="#">Contato</a>
-									</li>
-									<li id="menu-item-563" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-563">
-										<a href="#">Trabalhe conosco</a>
-									</li>
-								</ul>
-							</div>
+							<div class="col-md-6"> 
+
+								<?php wp_nav_menu(array(
+								'theme_location' => 'footer2',
+								'menu_class' => 'menu',
+								'menu_id' => 'menu-footer-menu',
+								'container' => ''
+							) ); ?>
+								
+							</div> 
 						</div>
 					</section>					
 				</div>
@@ -144,8 +146,18 @@ Footer Black Section
 </section>
 
 
+<?php 
+		endwhile;
+	endif; 
 
-<?php wp_footer(); ?>
+get_footer(); ?>
+
+<!-- BEGIN JIVOSITE CODE {literal}
+<script type='text/javascript'>
+(function(){ var widget_id = 'v7n4J0uqZ0';var d=document;var w=window;function l(){var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+</script>
+{/literal} END JIVOSITE CODE
+ -->
 
   </body>
 	

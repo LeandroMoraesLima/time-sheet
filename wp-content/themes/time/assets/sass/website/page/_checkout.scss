@@ -1,0 +1,45 @@
+#checkout{
+	background-color: #e8e6e4;
+
+	.text{
+
+		.titulo{
+			font-family: Poppins;
+		    font-size: 38px;
+		    color: #313971;
+		    font-weight: 400;
+		}
+		.woocommerce{
+			background-color: #f1f0ee;
+		    border: 1px solid #bfbebd;
+		    border-radius: 20px;
+		    padding: 40px;
+		    margin-bottom: 100px;
+
+		    .woocommerce-input-wrapper{
+
+		    	.input-text {
+	    		    padding: 10px;    
+	    		    border-radius: 2px;
+    				border: 1px solid #aaaaaa;
+    				color: #727277;
+				    font-size: 14px;
+				    font-family: Poppins;
+				    font-weight: 400
+		    	}
+		    }
+		    .form-row{		    	
+
+		    	.button{
+	    		    width: 50%;
+				    font-family: Poppins;
+				    font-size: 18px;
+				    background-color: #bc640e;
+				    font-weight: 700;
+				    margin-left: 168px;
+				    float: none !important;
+		    	}
+		    }
+		}
+	}
+}
