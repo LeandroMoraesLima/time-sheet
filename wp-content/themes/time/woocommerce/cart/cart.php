@@ -17,8 +17,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-global $woocommerce;
-$woocommerce->cart->add_to_cart($_POST['plano']);
+
 
 wc_print_notices();
 

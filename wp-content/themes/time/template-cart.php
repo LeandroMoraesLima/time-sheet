@@ -5,6 +5,12 @@ Template Name: cart
 */
 get_header();
 
+if( isset($_POST['plano']) ):
+	var_dump($_POST['plano']);
+	WC()->cart->add_to_cart($_POST['plano']);
+	$_POST['plano'] = '';
+endif;
+
 	if (have_posts()) :
 	    while (have_posts()) : the_post();
 
