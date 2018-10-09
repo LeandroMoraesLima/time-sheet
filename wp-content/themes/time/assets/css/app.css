@@ -156,15 +156,16 @@
 #faq {
   background-color: #ededed;
   padding-top: 95px !important;
+  padding-bottom: 90px !important;
 }
-/* line 7, ../sass/website/home/_faq.scss */
+/* line 8, ../sass/website/home/_faq.scss */
 #faq .intro_text .title {
   font-family: Poppins;
   font-size: 38px;
   color: #313971;
   font-weight: 400;
 }
-/* line 14, ../sass/website/home/_faq.scss */
+/* line 15, ../sass/website/home/_faq.scss */
 #faq .intro_text .custom_title {
   font-family: Poppins;
   font-size: 17px;
@@ -172,7 +173,7 @@
   font-weight: 500;
   padding-bottom: 60px;
 }
-/* line 28, ../sass/website/home/_faq.scss */
+/* line 29, ../sass/website/home/_faq.scss */
 #faq .wt-row-container .wpb_column .wpb_wrapper h4 {
   font-family: Poppins;
   font-size: 16px;
@@ -180,7 +181,7 @@
   font-weight: 800;
   padding-bottom: 7px;
 }
-/* line 35, ../sass/website/home/_faq.scss */
+/* line 36, ../sass/website/home/_faq.scss */
 #faq .wt-row-container .wpb_column .wpb_wrapper p {
   font-family: Poppins;
   font-size: 15px;
@@ -199,7 +200,7 @@
   color: #313971;
   font-weight: 400;
 }
-/* line 15, ../sass/website/home/_pricing.scss */
+/* line 14, ../sass/website/home/_pricing.scss */
 #pricing .wt_section_heading h3 {
   font-family: Poppins;
   font-size: 17px;
@@ -207,7 +208,7 @@
   font-weight: 500;
   padding-bottom: 57px;
 }
-/* line 22, ../sass/website/home/_pricing.scss */
+/* line 21, ../sass/website/home/_pricing.scss */
 #pricing .wt_section_heading .botao {
   border: 1px solid #d5d5d5;
   padding: 33px;
@@ -215,14 +216,14 @@
   padding-bottom: 21px;
   margin-bottom: 13px;
 }
-/* line 29, ../sass/website/home/_pricing.scss */
+/* line 28, ../sass/website/home/_pricing.scss */
 #pricing .wt_section_heading .botao h4 {
   font-family: Poppins;
   font-size: 17px;
   color: #393939;
   font-weight: 500;
 }
-/* line 35, ../sass/website/home/_pricing.scss */
+/* line 34, ../sass/website/home/_pricing.scss */
 #pricing .wt_section_heading .botao h4 .btn {
   font-family: Poppins;
   font-size: 18px;
@@ -230,42 +231,42 @@
   font-weight: 700;
   margin-right: 20px;
 }
-/* line 49, ../sass/website/home/_pricing.scss */
+/* line 48, ../sass/website/home/_pricing.scss */
 #pricing .vc_row .wt_pricing_header h3 {
   font-family: Poppins;
   font-size: 20px;
   color: #393939;
   font-weight: 500;
 }
-/* line 57, ../sass/website/home/_pricing.scss */
+/* line 56, ../sass/website/home/_pricing.scss */
 #pricing .vc_row .wt_pricing_header .wt_plan_price h4 {
   font-family: Poppins;
   font-size: 40px;
   color: #393939;
   font-weight: 500;
 }
-/* line 63, ../sass/website/home/_pricing.scss */
+/* line 62, ../sass/website/home/_pricing.scss */
 #pricing .vc_row .wt_pricing_header .wt_plan_price h4 i {
   font-family: Poppins;
   font-size: 15px;
   color: #393939;
   font-weight: 500;
 }
-/* line 74, ../sass/website/home/_pricing.scss */
+/* line 73, ../sass/website/home/_pricing.scss */
 #pricing .vc_row .wt_pricing_content h3 {
   font-family: Poppins;
   font-size: 30px;
   color: #363636;
   font-weight: 500;
 }
-/* line 82, ../sass/website/home/_pricing.scss */
+/* line 81, ../sass/website/home/_pricing.scss */
 #pricing .vc_row .wt_pricing_content ul li {
   font-family: Poppins;
   font-size: 15px;
   color: #393939;
   font-weight: 500;
 }
-/* line 93, ../sass/website/home/_pricing.scss */
+/* line 92, ../sass/website/home/_pricing.scss */
 #pricing .vc_row .wt_pricing_btn .btn {
   font-family: Poppins;
   font-size: 15px;
@@ -274,44 +275,44 @@
   background-color: #bc640e;
   border-radius: 3px;
 }
-/* line 105, ../sass/website/home/_pricing.scss */
+/* line 104, ../sass/website/home/_pricing.scss */
 #pricing .wpb_wrapper #enviar {
   max-width: 100%;
 }
-/* line 108, ../sass/website/home/_pricing.scss */
+/* line 107, ../sass/website/home/_pricing.scss */
 #pricing .wpb_wrapper #enviar .cont {
   background-color: #f2f2f2;
   padding: 0px;
   margin: 0 13px;
 }
-/* line 114, ../sass/website/home/_pricing.scss */
+/* line 113, ../sass/website/home/_pricing.scss */
 #pricing .wpb_wrapper #enviar .cont .titulo {
   padding-top: 40px;
 }
-/* line 117, ../sass/website/home/_pricing.scss */
+/* line 116, ../sass/website/home/_pricing.scss */
 #pricing .wpb_wrapper #enviar .cont .titulo h2 {
   font-family: Poppins;
   font-size: 26px;
   color: #393939;
   font-weight: 500;
 }
-/* line 124, ../sass/website/home/_pricing.scss */
+/* line 123, ../sass/website/home/_pricing.scss */
 #pricing .wpb_wrapper #enviar .cont .campo {
   padding-bottom: 45px;
 }
-/* line 127, ../sass/website/home/_pricing.scss */
+/* line 126, ../sass/website/home/_pricing.scss */
 #pricing .wpb_wrapper #enviar .cont .campo .form {
   padding-top: 10px;
 }
-/* line 130, ../sass/website/home/_pricing.scss */
+/* line 129, ../sass/website/home/_pricing.scss */
 #pricing .wpb_wrapper #enviar .cont .campo .form .form-control {
   border-radius: 0px;
 }
-/* line 134, ../sass/website/home/_pricing.scss */
+/* line 133, ../sass/website/home/_pricing.scss */
 #pricing .wpb_wrapper #enviar .cont .campo .form-enviar {
   padding-top: 10px;
 }
-/* line 137, ../sass/website/home/_pricing.scss */
+/* line 136, ../sass/website/home/_pricing.scss */
 #pricing .wpb_wrapper #enviar .cont .campo .form-enviar .btn {
   width: 100%;
   font-family: Poppins;

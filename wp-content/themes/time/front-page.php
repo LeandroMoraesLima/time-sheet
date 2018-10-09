@@ -116,7 +116,7 @@ faq Section
 			</div>
 		</div>
 	</div>  
-    <div class="wt-row-container wt-row-centered" style="border-color: #cfcfcf;border-style: solid;border-width: 0px 0px 1px 0px;">
+    <div class="wt-row-container wt-row-centered">
 	<div class="vc_row wpb_row vc_row-fluid">
 		<div class="container">
 			<div class="row">				
@@ -170,8 +170,8 @@ pricing Section
 		?>
 
 <section id="pricing" class="wt_section_area" style="padding-top:60px; ">
-   <div class="wt-row-container wt-row-centered" style="border-color: #dddddd;border-style: solid;border-width: 0px 0px 1px 0px;">
-		<div class="vc_row wpb_row vc_row-fluid"  style="padding-top: 10px;padding-bottom: 30px;">
+   <div class="wt-row-container wt-row-centered" style="border-color: #dddddd;border-style: solid;border-width: 0px 0px 0px 0px;">
+		<div class="vc_row wpb_row vc_row-fluid"  style="padding-top: 10px;padding-bottom: 77px;">
 			<div class="container" style="">
 				<div class="row">
 					<div class="wpb_column vc_column_container vc_col-sm-12">
@@ -271,7 +271,7 @@ Clients Section
 
 <section id="clients" class="wt_section_area" style="">
 	<div class="wt-row-container wt-row-centered" style="border-color: #dddddd;border-style: solid;border-width: 1px 0px 0px 0px;">
-		<div class="vc_row wpb_row vc_row-fluid"  style="padding-top: 60px;padding-bottom: 60px;">
+		<div class="vc_row wpb_row vc_row-fluid"  style="padding-top: 80px;padding-bottom: 90px;">
 			<div class="container">
 				<div class="row">
 					<div class="wpb_column vc_column_container vc_col-sm-12">
