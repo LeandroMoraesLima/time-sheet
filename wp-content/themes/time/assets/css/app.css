@@ -612,9 +612,8 @@
   background-size: auto;
   height: 95px;
   margin-bottom: 20px;
-  margin-left: -57px;
 }
-/* line 85, ../sass/website/page/_outros-produtos.scss */
+/* line 83, ../sass/website/page/_outros-produtos.scss */
 #other-products #other .other2 .img2 p {
   font-family: Poppins;
   font-size: 18px;
@@ -622,14 +621,14 @@
   font-weight: 400;
   margin-bottom: 37px;
 }
-/* line 92, ../sass/website/page/_outros-produtos.scss */
+/* line 90, ../sass/website/page/_outros-produtos.scss */
 #other-products #other .other2 .img2 p span {
   font-family: Poppins;
   font-size: 18px;
   color: #363636;
   font-weight: 600;
 }
-/* line 102, ../sass/website/page/_outros-produtos.scss */
+/* line 100, ../sass/website/page/_outros-produtos.scss */
 #other-products #other .other2 .img2 .botao2 .btn {
   font-family: Poppins;
   font-size: 18px;
@@ -638,7 +637,7 @@
   border: none;
   border-radius: 3px;
 }
-/* line 114, ../sass/website/page/_outros-produtos.scss */
+/* line 112, ../sass/website/page/_outros-produtos.scss */
 #other-products #other .other2 .text2 .image2 {
   background-repeat: no-repeat;
   background-size: contain;
