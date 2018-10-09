@@ -790,45 +790,51 @@
 }
 /* line 40, ../sass/website/page/_nossos-planos.scss */
 #our-plans #our .plans .sub .botao {
-  padding-bottom: 270px;
   text-align: center;
   padding-right: 155px;
+  min-height: 380px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
-/* line 45, ../sass/website/page/_nossos-planos.scss */
+/* line 49, ../sass/website/page/_nossos-planos.scss */
 #our-plans #our .plans .sub .botao .mark {
   background-color: transparent;
   font-family: Poppins;
-  font-size: 23px;
+  font-size: 24px;
   color: #363636;
   font-weight: 400;
 }
-/* line 53, ../sass/website/page/_nossos-planos.scss */
+/* line 57, ../sass/website/page/_nossos-planos.scss */
 #our-plans #our .plans .sub .botao .btn {
   font-family: Poppins;
-  font-size: 18px;
+  font-size: 20px;
   background-color: #bc640e;
   font-weight: 700;
   border: none;
-  border-radius: 3px;
+  border-radius: 5px;
+  margin-top: 15px;
+  padding: 12px 35px;
 }
 
-/* line 66, ../sass/website/page/_nossos-planos.scss */
+/* line 72, ../sass/website/page/_nossos-planos.scss */
 #coluna {
   background-color: #FFF;
 }
-/* line 69, ../sass/website/page/_nossos-planos.scss */
+/* line 75, ../sass/website/page/_nossos-planos.scss */
 #coluna .col {
   margin-top: 70px;
   margin-bottom: 100px;
 }
-/* line 73, ../sass/website/page/_nossos-planos.scss */
+/* line 79, ../sass/website/page/_nossos-planos.scss */
 #coluna .col .image {
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
   height: 370px;
 }
-/* line 82, ../sass/website/page/_nossos-planos.scss */
+/* line 88, ../sass/website/page/_nossos-planos.scss */
 #coluna .col .texto .colum {
   font-family: Poppins;
   font-size: 40px;
@@ -836,7 +842,7 @@
   font-weight: 400;
   margin-bottom: 25px;
 }
-/* line 89, ../sass/website/page/_nossos-planos.scss */
+/* line 95, ../sass/website/page/_nossos-planos.scss */
 #coluna .col .texto .text {
   font-family: Poppins;
   font-size: 18px;
@@ -844,14 +850,14 @@
   font-weight: 500;
   margin-bottom: 35px;
 }
-/* line 96, ../sass/website/page/_nossos-planos.scss */
+/* line 102, ../sass/website/page/_nossos-planos.scss */
 #coluna .col .texto h3 {
   font-family: Poppins;
   font-size: 30px;
   color: #363636;
   font-weight: 400;
 }
-/* line 102, ../sass/website/page/_nossos-planos.scss */
+/* line 108, ../sass/website/page/_nossos-planos.scss */
 #coluna .col .texto p {
   font-family: Poppins;
   font-size: 18px;
@@ -859,14 +865,14 @@
   font-weight: 500;
   margin-bottom: 25px;
 }
-/* line 109, ../sass/website/page/_nossos-planos.scss */
+/* line 115, ../sass/website/page/_nossos-planos.scss */
 #coluna .col .texto p span {
   font-family: Poppins;
   font-size: 37px;
   color: #d56400;
   font-weight: 500;
 }
-/* line 118, ../sass/website/page/_nossos-planos.scss */
+/* line 124, ../sass/website/page/_nossos-planos.scss */
 #coluna .col .texto .botao1 .btn {
   font-family: Poppins;
   font-size: 18px;
@@ -876,11 +882,11 @@
   border-radius: 3px;
 }
 
-/* line 130, ../sass/website/page/_nossos-planos.scss */
+/* line 136, ../sass/website/page/_nossos-planos.scss */
 .coluna2 {
   margin-bottom: 100px;
 }
-/* line 135, ../sass/website/page/_nossos-planos.scss */
+/* line 141, ../sass/website/page/_nossos-planos.scss */
 .coluna2 .texto2 .colum2 {
   font-family: Poppins;
   font-size: 40px;
@@ -888,7 +894,7 @@
   font-weight: 400;
   margin-bottom: 25px;
 }
-/* line 143, ../sass/website/page/_nossos-planos.scss */
+/* line 149, ../sass/website/page/_nossos-planos.scss */
 .coluna2 .texto2 .text2 {
   font-family: Poppins;
   font-size: 18px;
@@ -896,14 +902,14 @@
   font-weight: 500;
   margin-bottom: 35px;
 }
-/* line 150, ../sass/website/page/_nossos-planos.scss */
+/* line 156, ../sass/website/page/_nossos-planos.scss */
 .coluna2 .texto2 h3 {
   font-family: Poppins;
   font-size: 30px;
   color: #363636;
   font-weight: 400;
 }
-/* line 156, ../sass/website/page/_nossos-planos.scss */
+/* line 162, ../sass/website/page/_nossos-planos.scss */
 .coluna2 .texto2 p {
   font-family: Poppins;
   font-size: 18px;
@@ -911,14 +917,14 @@
   font-weight: 500;
   margin-bottom: 35px;
 }
-/* line 163, ../sass/website/page/_nossos-planos.scss */
+/* line 169, ../sass/website/page/_nossos-planos.scss */
 .coluna2 .texto2 p span {
   font-family: Poppins;
   font-size: 37px;
   color: #d56400;
   font-weight: 500;
 }
-/* line 172, ../sass/website/page/_nossos-planos.scss */
+/* line 178, ../sass/website/page/_nossos-planos.scss */
 .coluna2 .texto2 .botao2 .btn2 {
   font-family: Poppins;
   font-size: 18px;
@@ -927,7 +933,7 @@
   border: none;
   border-radius: 3px;
 }
-/* line 184, ../sass/website/page/_nossos-planos.scss */
+/* line 190, ../sass/website/page/_nossos-planos.scss */
 .coluna2 .img .image2 {
   background-repeat: no-repeat;
   background-size: contain;
@@ -935,7 +941,7 @@
   height: 370px;
 }
 
-/* line 196, ../sass/website/page/_nossos-planos.scss */
+/* line 202, ../sass/website/page/_nossos-planos.scss */
 .coluna3 .texto3 .colum3 {
   font-family: Poppins;
   font-size: 40px;
@@ -943,14 +949,14 @@
   font-weight: 400;
   margin-bottom: 25px;
 }
-/* line 203, ../sass/website/page/_nossos-planos.scss */
+/* line 209, ../sass/website/page/_nossos-planos.scss */
 .coluna3 .texto3 .text3 {
   font-family: Poppins;
   font-size: 17px;
   color: #393939;
   font-weight: 500;
 }
-/* line 211, ../sass/website/page/_nossos-planos.scss */
+/* line 217, ../sass/website/page/_nossos-planos.scss */
 .coluna3 .texto3 .form .form-control {
   width: 67%;
   height: 50px;
@@ -962,7 +968,7 @@
   background-color: #e8e6e4;
   border-color: #727277 !important;
 }
-/* line 225, ../sass/website/page/_nossos-planos.scss */
+/* line 231, ../sass/website/page/_nossos-planos.scss */
 .coluna3 .texto3 .form-enviar .btn {
   width: 67%;
   height: 50px;
@@ -972,7 +978,7 @@
   font-weight: 700;
   margin: 0;
 }
-/* line 238, ../sass/website/page/_nossos-planos.scss */
+/* line 244, ../sass/website/page/_nossos-planos.scss */
 .coluna3 .img .image3 {
   background-repeat: no-repeat;
   background-size: contain;

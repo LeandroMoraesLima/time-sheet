@@ -38,25 +38,31 @@
 			.sub{
 				
 				.botao{
-					padding-bottom: 270px;
 					text-align: center;
 					padding-right: 155px;
+					min-height: 380px;
+				    justify-content: center;
+				    display: flex;
+				    align-items: center;
+				    flex-direction: column;
 
 					.mark{
 						background-color: transparent;
 						font-family: Poppins;
-					    font-size: 23px;
+					    font-size: 24px;
 					    color: #363636;
 					    font-weight: 400;
 
 					}
 					.btn{
 						font-family: Poppins;
-					    font-size: 18px;
+					    font-size: 20px;
 					    background-color: #bc640e;
 					    font-weight: 700;
 					    border: none;
-					    border-radius: 3px;
+					    border-radius: 5px;
+					    margin-top: 15px;
+					    padding: 12px 35px;
 					}
 				}
 			}
