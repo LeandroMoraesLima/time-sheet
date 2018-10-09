@@ -1,7 +1,7 @@
 <?php 
 
 /*
-	template name: Organização e otimização
+	template name: Quem somos
 */
 
 get_header();
