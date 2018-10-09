@@ -390,34 +390,42 @@
 }
 /* line 44, ../sass/website/home/_footer.scss */
 #wt_footerWrapper .clearfix .wt_animate .wt_social_networks_sc .wt_icon_40 .logos a {
-  background-color: initial;
+  background: transparent !important;
 }
-/* line 47, ../sass/website/home/_footer.scss */
+/* line 46, ../sass/website/home/_footer.scss */
 #wt_footerWrapper .clearfix .wt_animate .wt_social_networks_sc .wt_icon_40 .logos a .dashicons {
   font-size: 35px;
   color: #fff;
 }
-/* line 58, ../sass/website/home/_footer.scss */
+/* line 50, ../sass/website/home/_footer.scss */
+#wt_footerWrapper .clearfix .wt_animate .wt_social_networks_sc .wt_icon_40 .logos a .fa {
+  font-size: 33px;
+  color: #fff;
+}
+/* line 61, ../sass/website/home/_footer.scss */
 #wt_footerWrapper .clearfix .wt_animate .textwidget .wt_copyright {
   font-family: Poppins;
   font-size: 14px;
   color: #ffffff;
   font-weight: 400;
 }
-/* line 69, ../sass/website/home/_footer.scss */
+/* line 72, ../sass/website/home/_footer.scss */
 #wt_footerWrapper .clearfix .mc4wp-form p .form-control {
   background-color: #fff !important;
   border-color: #fff !important;
+  border: 1px solid #ddd !important;
 }
-/* line 73, ../sass/website/home/_footer.scss */
+/* line 77, ../sass/website/home/_footer.scss */
 #wt_footerWrapper .clearfix .mc4wp-form p .mc4wp_submit {
   font-family: Poppins;
   font-size: 12px;
   color: #ffffff;
   font-weight: 700;
   background-color: #bc640e;
+  margin-top: 10px;
+  border: 1px solid #ddd !important;
 }
-/* line 84, ../sass/website/home/_footer.scss */
+/* line 90, ../sass/website/home/_footer.scss */
 #wt_footerWrapper .clearfix .widget .wt_subscribe {
   font-family: Poppins;
   font-size: 14px !important;
@@ -427,19 +435,19 @@
 }
 
 /* Footer Black Section */
-/* line 100, ../sass/website/home/_footer.scss */
+/* line 106, ../sass/website/home/_footer.scss */
 #black .titulo {
   text-align: center;
   padding: 15px;
 }
-/* line 104, ../sass/website/home/_footer.scss */
+/* line 110, ../sass/website/home/_footer.scss */
 #black .titulo span {
   font-family: Poppins;
   font-size: 17px;
   color: #7f7f7f;
   font-weight: 400;
 }
-/* line 110, ../sass/website/home/_footer.scss */
+/* line 116, ../sass/website/home/_footer.scss */
 #black .titulo a {
   font-family: Poppins;
   font-size: 17px;

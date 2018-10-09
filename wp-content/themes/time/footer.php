@@ -18,24 +18,25 @@ Footer Section
 					<section id="nav_menu-2" class="widget">
 						<div class="menu-footer-menu-container">
 							<div class="col-md-6">
-								<h4 class="mapa">Mapa do site</h4>
-
-							<?php wp_nav_menu(array(
-								'theme_location' => 'footer',
-								'menu_class' => 'menu',
-								'menu_id' => 'menu-footer-menu',
-								'container' => ''
-							) ); ?>
-
-							</div>
-							<div class="col-md-6"> 
+								<h4 class="mapa"><?php echo get_field('fo_titulo','options'); ?></h4>
 
 								<?php wp_nav_menu(array(
-								'theme_location' => 'footer2',
-								'menu_class' => 'menu',
-								'menu_id' => 'menu-footer-menu',
-								'container' => ''
-							) ); ?>
+									'theme_location' => 'footer',
+									'menu_class' => 'menu',
+									'menu_id' => 'menu-footer-menu',
+									'container' => ''
+								) ); ?>
+
+								</div>
+								<br>
+								<div class="col-md-6"> 
+
+									<?php wp_nav_menu(array(
+									'theme_location' => 'footer2',
+									'menu_class' => 'menu',
+									'menu_id' => 'menu-footer-menu',
+									'container' => ''
+								) ); ?>
 								
 							</div> 
 						</div>
@@ -46,24 +47,24 @@ Footer Section
 						<div class="wt_social_networks_sc">
 							<ul class="wt_icon_40 wt_icon_type_1 wt_circle">
 								<li class="logos" data-alt="Facebook">
-									<a href="" class="facebook" rel="nofollow" title="Facebook" target="_blank">
+									<a href="<?php echo get_field('fo_link_facebook','options'); ?>" class="facebook" rel="nofollow" title="Facebook" target="_blank">
 										<span class="dashicons dashicons-facebook"></span>
 									</a>
 								</li>
 								<li class="logos" data-alt="twitter">
-									<a href="" class="twitter" rel="nofollow" title="twitter" target="_blank">
+									<a href="<?php echo get_field('fo_link_twitter','options'); ?>" class="twitter" rel="nofollow" title="twitter" target="_blank">
 										<span class="dashicons dashicons-twitter"></span>
 									</a>
 								</li>
-								<li class="logos" data-alt="Google">
-									<a href="" class="google" rel="nofollow" title="Google" target="_blank">
-										<span class="dashicons dashicons-twitter"></span>
+								<li class="logos" data-alt="instagram">
+									<a href="<?php echo get_field('fo_link_instagram','options'); ?>" class="google" rel="nofollow" title="Google" target="_blank">
+										<i class="fa fa-instagram"></i>
 										</i>
 									</a>
 								</li>
 								<li class="logos" data-alt="Linkedin">
-									<a href="" class="linkedin" rel="nofollow" title="Linkedin" target="_blank">
-										<span class="dashicons dashicons-facebook"></span>
+									<a href="<?php echo get_field('fo_link_linkedin','options'); ?>" class="linkedin" rel="nofollow" title="Linkedin" target="_blank">
+										<i class="fa fa-linkedin"></i>
 									</a>
 								</li>
 							</ul>
@@ -71,7 +72,7 @@ Footer Section
 					</section>
 					<section id="text-4" class="widget widget_text">
 						<div class="textwidget text-center">
-							<p class="wt_copyright">2018-Todos os direitos reservados</p>
+							<p class="wt_copyright"><?php echo get_field('fo_direitos_autorais','options'); ?></p>
 						</div>
 					</section>
 				</div>
@@ -98,15 +99,8 @@ Footer Section
 						<form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-559" method="post" data-id="559" data-name="newsletter" >
 							<div class="mc4wp-form-fields">
 								<p>
-									<input class="form-control" type="email" id="mc4wp_email" name="email" required />
-									<input class="mc4wp_submit" type="submit" value="INSCREVA-SE" />
+									<?php echo do_shortcode ('[contact-form-7 id="373" title="Formulario Footer"]'); ?>
 								</p>
-								<div style="display: none;">
-									<input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" />
-								</div>
-								<input type="hidden" name="_mc4wp_timestamp" value="1537469505" />
-								<input type="hidden" name="_mc4wp_form_id" value="559" />
-								<input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" />
 							</div>
 							<div class="mc4wp-response"></div>
 						</form>
@@ -114,7 +108,7 @@ Footer Section
 						</section>
 						<section id="text-5" class="widget widget_text">
 							<div class="textwidget">
-								<p class="wt_subscribe">Assine nossa newsletter e se mantenha sempre informado</p>
+								<p class="wt_subscribe"><?php echo get_field('fo_texto','options'); ?></p>
 							</div>
 						</section>
 					</div>
@@ -152,11 +146,11 @@ Footer Black Section
 
 get_footer(); ?>
 
-BEGIN JIVOSITE CODE {literal}
+<!-- BEGIN JIVOSITE CODE {literal} -->
 <script type='text/javascript'>
-(function(){ var widget_id = 'v7n4J0uqZ0';var d=document;var w=window;function l(){var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+(function(){ var widget_id = 'CXxPydlHbs';var d=document;var w=window;function l(){var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
 </script>
-{/literal} END JIVOSITE CODE
+<!-- {/literal} END JIVOSITE CODE -->
 
   </body>
 	

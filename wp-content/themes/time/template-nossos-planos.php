@@ -76,7 +76,6 @@ Our plans Section
 				<p><span><?php echo get_sub_field('ou_valor_dos_planos'); ?> </span><?php echo get_sub_field('ou_texto'); ?></p>
 				<div class="botao1">
 
-
 					<?php 
 
 					
@@ -87,8 +86,6 @@ Our plans Section
 					<form action="<?php echo get_bloginfo('url'); ?>/cart/" method="post">
 						<input type="hidden" name="plano" value="<?php echo $escolha->ID; ?>">
 						<input type="submit"  class="btn btn-primary btn-lg" value="<?php echo get_sub_field('ou_titulo_do_botao'); ?>">
-						
-
 					</form>
 
 				</div>

@@ -40,13 +40,16 @@
 
 					.logos{
 						
-
+						
 						a{
-							background-color: initial;
-
+							background: transparent !important;
 							.dashicons{
 								font-size: 35px;
-								color: #fff;
+								color: #fff;								
+							}
+							.fa{
+								font-size: 33px;
+    							color: #fff;
 							}
 						}
 					}
@@ -69,6 +72,7 @@
 				.form-control{
 					background-color: #fff !important;
 					border-color: #fff !important;
+					border: 1px solid #ddd !important;
 				}
 				.mc4wp_submit{
 					font-family: Poppins;
@@ -76,6 +80,8 @@
 				    color: #ffffff;
 				    font-weight: 700;
 				    background-color: #bc640e;
+				    margin-top: 10px;
+				    border: 1px solid #ddd !important;
 				}
 			}
 		} 

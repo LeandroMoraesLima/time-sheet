@@ -209,11 +209,18 @@ pricing Section
 														<?php echo get_sub_field ('pr_planos') ?>
 													</div>
 													<div class="wt_pricing_btn">
-														<a class="btn btn-black" href="<?php echo get_sub_field ('pr_link_do_botao') ?>"><?php echo get_sub_field ('pr_titulo_do_botao') ?></a>
+
+														<?php $escolha = get_sub_field('pr_escolha_o_produto'); ?>
+
+														<form action="<?php echo get_bloginfo('url'); ?>/cart/" method="post">
+															<input type="hidden" name="plano" value="<?php echo $escolha->ID; ?>">
+															<input type="submit" class="btn btn-black" value="<?php echo get_sub_field ('pr_titulo_do_botao') ?>">
+														</form>
+
 													</div>
 												</div>
 											</div>
-										</div>
+										</div> 
 									</div>
 
 									<?php endwhile; ?>
