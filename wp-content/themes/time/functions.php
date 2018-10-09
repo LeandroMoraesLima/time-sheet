@@ -7,7 +7,7 @@
 	function load_scripts()
 	{
 
-		$versao = '0.0.1';
+		$versao = '0.0.2';
 
 		/* Registering style */
 		wp_register_style('animatecss', CSS . '/animate.css', array(), $versao, false );
