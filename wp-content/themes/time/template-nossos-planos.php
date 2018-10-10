@@ -95,12 +95,10 @@ Our plans Section
 		<?php else: ?>
 
 		<div class="coluna2">
-			<div class="row">
+			<div class="row column-reverse">
 				<div class="col-md-6">							
 					<div class="texto2">
 						<h2 class="colum2"><?php echo get_sub_field('ou_titulo_dos_planos'); ?></h2>
-						
-
 
 						<?php if ( $i == 3 ): ?>
 
@@ -118,26 +116,20 @@ Our plans Section
 						<p><span><?php echo get_sub_field('ou_valor_dos_planos'); ?> </span><?php echo get_sub_field('ou_texto'); ?></p>
 						<div class="botao2">
 
-							<?php 
-
+							<?php
 					
 							$escolha = get_sub_field('escolha_o_produto');
 							
-							?>
-		
+							?>		
 							
 							<form action="<?php echo get_bloginfo('url'); ?>/cart/" method="post">
 								<input type="hidden" name="plano" value="<?php echo $escolha->ID; ?>">
 								<input type="submit"  class="btn2 btn-primary btn-lg" value="<?php echo get_sub_field('ou_titulo_do_botao'); ?>">
 							</form>
 
-
 						</div>
 							
 						<?php endif ?>
-
-
-
 
 					</div>														
 				</div>													

@@ -51,7 +51,7 @@ Organization and optimization Section
 						<?php $imagem = get_sub_field('or_imagem'); ?>
 
 					<div class="Organization2">
-						<div class="row">
+						<div class="row column-reverse">
 							<div class="image2 col-md-6">							
 								<div class="img2" style="background-image: url('<?php echo $imagem; ?>');">								
 								</div>							

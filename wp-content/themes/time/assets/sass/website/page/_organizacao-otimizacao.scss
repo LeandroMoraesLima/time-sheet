@@ -9,6 +9,10 @@
 		    color: #313971;
 		    font-weight: 600;
 		    margin-bottom: 70px;
+
+		    @media screen and (max-width: 980px){
+				margin-top: 145px;							
+			}
 		}		
 		h3{	
 			font-family: Poppins;
@@ -35,33 +39,41 @@
 		}		 
 		.Organization2{
 			margin-top: 80px;
-			margin-bottom: 85px;
+			margin-bottom: 85px; 
 
-			.image2{ 
+			.column-reverse{
 
-				.img2{
-					background-repeat: no-repeat;
-				    background-size: contain;
-				    width: 100%;
-				    height: 370px;
+				@media screen and (max-width: 980px){
+					display: flex;
+					flex-direction: column-reverse;							
 				}
-			}
-			.text2{
+			
+				.image2{ 
 
-				.campo{
-					font-family: Poppins;
-				    font-size: 15px;
-				    color: #363636;
-				    font-weight: 500;
-				    margin-top: 47px;
+					.img2{
+						background-repeat: no-repeat;
+					    background-size: contain;
+					    width: 100%;
+					    height: 370px;
+					}
 				}
-				.campo1{
-					font-family: Poppins;
-				    font-size: 15px;
-				    color: #363636;
-				    font-weight: 500;
-				    margin-top: 20px;
-				    
+				.text2{
+
+					.campo{
+						font-family: Poppins;
+					    font-size: 15px;
+					    color: #363636;
+					    font-weight: 500;
+					    margin-top: 47px;
+					}
+					.campo1{
+						font-family: Poppins;
+					    font-size: 15px;
+					    color: #363636;
+					    font-weight: 500;
+					    margin-top: 20px;
+					    
+					}
 				}
 			}
 		}

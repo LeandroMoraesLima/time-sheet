@@ -86,8 +86,7 @@ Benefits Section
 									<?php echo get_field('be_texto'); ?>				
 								</div>													
 							</div>	
-							<div class="col-md-6">									
-								
+							<div class="col-md-6">							
 							</div>
 						</div>
 					</div>

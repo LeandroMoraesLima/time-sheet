@@ -54,7 +54,7 @@ other-products Section
 					<?php else: ?>
 
 					<div class="other2">
-						<div class="row">
+						<div class="row column-revese">
 							<div class="img2 col-md-6">							
 								<div class="logo2" style="background-image: url('<?php echo $logo; ?>');">								
 								</div>

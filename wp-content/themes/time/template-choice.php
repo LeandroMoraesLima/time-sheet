@@ -19,19 +19,17 @@ choice Section
 		<div class="row">
 			<div class="col-md-12">
 				<div class="container">
+					<h2 class="titulo"><?php the_title(); ?></h2>
 					<div class="text row">
 						<div class="col-md-6">		
 							<div class="row">						
-								<div class="wpb_wrapper">
-									<h2 class="titulo">
-										<?php the_title(); ?>	
-									</h2>
+								<div class="wpb_wrapper">									
 									<?php echo get_field('esquerda'); ?>
 								</div>
 							</div>													
 						</div>	
 						<div class="col-md-6">		
-							<div class="row">						
+							<div class="row column-reverse">						
 								<div class="wpb_wrapper">
 
 									<?php echo get_field('direita'); ?>

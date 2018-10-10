@@ -47,14 +47,27 @@
   display: flex;
   align-items: center;
 }
-/* line 27, ../sass/website/home/_slider.scss */
+@media screen and (max-width: 980px) {
+  /* line 21, ../sass/website/home/_slider.scss */
+  #wt_containerWrapper .wt_section_area .vc_row .text {
+    justify-content: center !important;
+    flex-direction: column !important;
+  }
+}
+@media screen and (max-width: 980px) {
+  /* line 30, ../sass/website/home/_slider.scss */
+  #wt_containerWrapper .wt_section_area .vc_row .text .wpb_wrapper {
+    text-align: center;
+  }
+}
+/* line 36, ../sass/website/home/_slider.scss */
 #wt_containerWrapper .wt_section_area .vc_row .text .wpb_wrapper h1 {
   font-family: Poppins;
   font-size: 40px;
   color: #ffffff;
   font-weight: 800;
 }
-/* line 33, ../sass/website/home/_slider.scss */
+/* line 42, ../sass/website/home/_slider.scss */
 #wt_containerWrapper .wt_section_area .vc_row .text .wpb_wrapper h4 {
   font-family: Poppins;
   font-size: 18px;
@@ -62,33 +75,41 @@
   font-weight: 300;
   line-height: 1.4em;
 }
-/* line 40, ../sass/website/home/_slider.scss */
+/* line 49, ../sass/website/home/_slider.scss */
 #wt_containerWrapper .wt_section_area .vc_row .text .wpb_wrapper h4 span {
   font-family: Poppins;
   font-size: 18px;
   color: #ffffff;
   font-weight: 600;
 }
-/* line 51, ../sass/website/home/_slider.scss */
+@media screen and (max-width: 980px) {
+  /* line 58, ../sass/website/home/_slider.scss */
+  #wt_containerWrapper .wt_section_area .vc_row .text .wpb_column {
+    width: 100%;
+    margin-top: 100px;
+    padding-left: 0;
+  }
+}
+/* line 65, ../sass/website/home/_slider.scss */
 #wt_containerWrapper .wt_section_area .vc_row .text .wpb_column .wpcf7-form {
   background: rgba(51, 71, 87, 0.8);
   border-radius: 3px;
 }
-/* line 56, ../sass/website/home/_slider.scss */
+/* line 71, ../sass/website/home/_slider.scss */
 #wt_containerWrapper .wt_section_area .vc_row .text .wpb_column .wpcf7-form h2 {
   font-family: Poppins;
   font-size: 20px;
   color: #ffffff;
   font-weight: 500;
 }
-/* line 65, ../sass/website/home/_slider.scss */
+/* line 80, ../sass/website/home/_slider.scss */
 #wt_containerWrapper .wt_section_area .vc_row .text .wpb_column .wpcf7-form .wpcf7-form-control-wrap .wpcf7-form-control {
   margin-bottom: 10px;
   font-family: Poppins;
   color: #bebebe;
   font-weight: 400;
 }
-/* line 72, ../sass/website/home/_slider.scss */
+/* line 87, ../sass/website/home/_slider.scss */
 #wt_containerWrapper .wt_section_area .vc_row .text .wpb_column .wpcf7-form .wpcf7-submit {
   font-family: Poppins;
   font-size: 18px;
@@ -116,18 +137,24 @@
   background-size: cover;
   background-position: center;
 }
-/* line 20, ../sass/website/home/_benefits.scss */
+@media screen and (max-width: 980px) {
+  /* line 6, ../sass/website/home/_benefits.scss */
+  #benefits:before {
+    display: none;
+  }
+}
+/* line 24, ../sass/website/home/_benefits.scss */
 #benefits #vantagens-ui .text {
   display: flex;
 }
-/* line 23, ../sass/website/home/_benefits.scss */
+/* line 27, ../sass/website/home/_benefits.scss */
 #benefits #vantagens-ui .text .titulo {
   font-family: Poppins;
   font-size: 38px;
   color: #313971;
   font-weight: 400;
 }
-/* line 29, ../sass/website/home/_benefits.scss */
+/* line 33, ../sass/website/home/_benefits.scss */
 #benefits #vantagens-ui .text ul {
   list-style-type: none;
   font-family: Poppins;
@@ -136,7 +163,7 @@
   font-weight: 400;
   margin: 0;
 }
-/* line 40, ../sass/website/home/_benefits.scss */
+/* line 44, ../sass/website/home/_benefits.scss */
 #benefits #vantagens-ui .text ul li:before {
   background-color: #313971;
   content: "";
@@ -147,7 +174,7 @@
   width: 8px;
   border-radius: 2px;
 }
-/* line 53, ../sass/website/home/_benefits.scss */
+/* line 57, ../sass/website/home/_benefits.scss */
 #benefits #vantagens-ui .vc_single_image-wrapper {
   margin: 0px;
 }
@@ -357,7 +384,15 @@
   background-position: center;
   margin-bottom: 65px;
 }
-/* line 36, ../sass/website/home/_clients.scss */
+@media screen and (max-width: 980px) {
+  /* line 29, ../sass/website/home/_clients.scss */
+  #clients .wpb_column .column .columnlogo .logos {
+    background-size: 45%;
+    margin-bottom: 50px;
+    min-height: 240px;
+  }
+}
+/* line 42, ../sass/website/home/_clients.scss */
 #clients .wpb_column .column .columnlogo .logos .img {
   opacity: 0;
 }
@@ -514,7 +549,13 @@
   font-weight: 400;
   margin-bottom: 40px;
 }
-/* line 19, ../sass/website/page/_denuncia.scss */
+@media screen and (max-width: 980px) {
+  /* line 12, ../sass/website/page/_denuncia.scss */
+  #complaint #complaint-channel .text .titulo {
+    margin-top: 120px;
+  }
+}
+/* line 23, ../sass/website/page/_denuncia.scss */
 #complaint #complaint-channel .text p {
   font-family: Poppins;
   font-size: 15px;
@@ -522,17 +563,23 @@
   font-weight: 500;
   margin-bottom: 15px;
 }
-/* line 26, ../sass/website/page/_denuncia.scss */
+/* line 30, ../sass/website/page/_denuncia.scss */
 #complaint #complaint-channel .text p a {
   color: #012bb4;
 }
-/* line 31, ../sass/website/page/_denuncia.scss */
+/* line 35, ../sass/website/page/_denuncia.scss */
 #complaint #complaint-channel .image {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   width: 100%;
   height: 370px;
+}
+@media screen and (max-width: 980px) {
+  /* line 35, ../sass/website/page/_denuncia.scss */
+  #complaint #complaint-channel .image {
+    margin-top: 40px;
+  }
 }
 
 /* line 5, ../sass/website/page/_outros-produtos.scss */
@@ -577,7 +624,13 @@
   margin-left: -28px;
   margin-bottom: 25px;
 }
-/* line 44, ../sass/website/page/_outros-produtos.scss */
+@media screen and (max-width: 980px) {
+  /* line 37, ../sass/website/page/_outros-produtos.scss */
+  #other-products #other .text .logo {
+    margin-top: 35px;
+  }
+}
+/* line 48, ../sass/website/page/_outros-produtos.scss */
 #other-products #other .text h4 {
   font-family: Poppins;
   font-size: 18px;
@@ -585,7 +638,7 @@
   font-weight: 600;
   margin-bottom: 5px;
 }
-/* line 52, ../sass/website/page/_outros-produtos.scss */
+/* line 56, ../sass/website/page/_outros-produtos.scss */
 #other-products #other .text p {
   font-family: Poppins;
   font-size: 18px;
@@ -593,7 +646,13 @@
   font-weight: 400;
   margin-bottom: 105px;
 }
-/* line 61, ../sass/website/page/_outros-produtos.scss */
+@media screen and (max-width: 980px) {
+  /* line 56, ../sass/website/page/_outros-produtos.scss */
+  #other-products #other .text p {
+    margin-bottom: 50px;
+  }
+}
+/* line 69, ../sass/website/page/_outros-produtos.scss */
 #other-products #other .text .botao .btn {
   font-family: Poppins;
   font-size: 18px;
@@ -602,34 +661,53 @@
   border: none;
   border-radius: 3px;
 }
-/* line 71, ../sass/website/page/_outros-produtos.scss */
+/* line 79, ../sass/website/page/_outros-produtos.scss */
 #other-products #other .other2 {
   margin: 160px 0;
 }
-/* line 77, ../sass/website/page/_outros-produtos.scss */
-#other-products #other .other2 .img2 .logo2 {
+@media screen and (max-width: 980px) {
+  /* line 79, ../sass/website/page/_outros-produtos.scss */
+  #other-products #other .other2 {
+    margin: 100px 0;
+  }
+}
+@media screen and (max-width: 980px) {
+  /* line 86, ../sass/website/page/_outros-produtos.scss */
+  #other-products #other .other2 .column-revese {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+/* line 93, ../sass/website/page/_outros-produtos.scss */
+#other-products #other .other2 .column-revese .img2 .logo2 {
   background-repeat: no-repeat;
   background-size: auto;
   height: 95px;
   margin-bottom: 20px;
 }
-/* line 83, ../sass/website/page/_outros-produtos.scss */
-#other-products #other .other2 .img2 p {
+@media screen and (max-width: 980px) {
+  /* line 93, ../sass/website/page/_outros-produtos.scss */
+  #other-products #other .other2 .column-revese .img2 .logo2 {
+    margin-top: 35px;
+  }
+}
+/* line 103, ../sass/website/page/_outros-produtos.scss */
+#other-products #other .other2 .column-revese .img2 p {
   font-family: Poppins;
   font-size: 18px;
   color: #363636;
   font-weight: 400;
   margin-bottom: 37px;
 }
-/* line 90, ../sass/website/page/_outros-produtos.scss */
-#other-products #other .other2 .img2 p span {
+/* line 110, ../sass/website/page/_outros-produtos.scss */
+#other-products #other .other2 .column-revese .img2 p span {
   font-family: Poppins;
   font-size: 18px;
   color: #363636;
   font-weight: 600;
 }
-/* line 100, ../sass/website/page/_outros-produtos.scss */
-#other-products #other .other2 .img2 .botao2 .btn {
+/* line 120, ../sass/website/page/_outros-produtos.scss */
+#other-products #other .other2 .column-revese .img2 .botao2 .btn {
   font-family: Poppins;
   font-size: 18px;
   background-color: #bc640e;
@@ -637,7 +715,7 @@
   border: none;
   border-radius: 3px;
 }
-/* line 112, ../sass/website/page/_outros-produtos.scss */
+/* line 133, ../sass/website/page/_outros-produtos.scss */
 #other-products #other .other2 .text2 .image2 {
   background-repeat: no-repeat;
   background-size: contain;
@@ -657,7 +735,13 @@
   font-weight: 600;
   margin-bottom: 70px;
 }
-/* line 13, ../sass/website/page/_organizacao-otimizacao.scss */
+@media screen and (max-width: 980px) {
+  /* line 6, ../sass/website/page/_organizacao-otimizacao.scss */
+  #Organization-optimization #Organization .titulo {
+    margin-top: 145px;
+  }
+}
+/* line 17, ../sass/website/page/_organizacao-otimizacao.scss */
 #Organization-optimization #Organization h3 {
   font-family: Poppins;
   font-size: 19px;
@@ -665,7 +749,7 @@
   font-weight: 600;
   margin-bottom: 20px;
 }
-/* line 20, ../sass/website/page/_organizacao-otimizacao.scss */
+/* line 24, ../sass/website/page/_organizacao-otimizacao.scss */
 #Organization-optimization #Organization p {
   font-family: Poppins;
   font-size: 15px;
@@ -673,42 +757,49 @@
   font-weight: 500;
   margin-bottom: 30px;
 }
-/* line 29, ../sass/website/page/_organizacao-otimizacao.scss */
+/* line 33, ../sass/website/page/_organizacao-otimizacao.scss */
 #Organization-optimization #Organization .image .img {
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
   height: 370px;
 }
-/* line 36, ../sass/website/page/_organizacao-otimizacao.scss */
+/* line 40, ../sass/website/page/_organizacao-otimizacao.scss */
 #Organization-optimization #Organization .Organization2 {
   margin-top: 80px;
   margin-bottom: 85px;
 }
-/* line 42, ../sass/website/page/_organizacao-otimizacao.scss */
-#Organization-optimization #Organization .Organization2 .image2 .img2 {
+@media screen and (max-width: 980px) {
+  /* line 44, ../sass/website/page/_organizacao-otimizacao.scss */
+  #Organization-optimization #Organization .Organization2 .column-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+/* line 53, ../sass/website/page/_organizacao-otimizacao.scss */
+#Organization-optimization #Organization .Organization2 .column-reverse .image2 .img2 {
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
   height: 370px;
 }
-/* line 51, ../sass/website/page/_organizacao-otimizacao.scss */
-#Organization-optimization #Organization .Organization2 .text2 .campo {
+/* line 62, ../sass/website/page/_organizacao-otimizacao.scss */
+#Organization-optimization #Organization .Organization2 .column-reverse .text2 .campo {
   font-family: Poppins;
   font-size: 15px;
   color: #363636;
   font-weight: 500;
   margin-top: 47px;
 }
-/* line 58, ../sass/website/page/_organizacao-otimizacao.scss */
-#Organization-optimization #Organization .Organization2 .text2 .campo1 {
+/* line 69, ../sass/website/page/_organizacao-otimizacao.scss */
+#Organization-optimization #Organization .Organization2 .column-reverse .text2 .campo1 {
   font-family: Poppins;
   font-size: 15px;
   color: #363636;
   font-weight: 500;
   margin-top: 20px;
 }
-/* line 70, ../sass/website/page/_organizacao-otimizacao.scss */
+/* line 82, ../sass/website/page/_organizacao-otimizacao.scss */
 #Organization-optimization #Organization .sub-texto .texto {
   font-family: Poppins;
   font-size: 15px;
@@ -716,14 +807,14 @@
   font-weight: 500;
   margin-bottom: 160px;
 }
-/* line 79, ../sass/website/page/_organizacao-otimizacao.scss */
+/* line 91, ../sass/website/page/_organizacao-otimizacao.scss */
 #Organization-optimization .wt-row-container {
   margin-top: 128px;
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-/* line 85, ../sass/website/page/_organizacao-otimizacao.scss */
+/* line 97, ../sass/website/page/_organizacao-otimizacao.scss */
 #Organization-optimization .wt-row-container:before {
   content: '';
   position: absolute;
@@ -733,21 +824,21 @@
   left: 0px;
   right: 0px;
 }
-/* line 96, ../sass/website/page/_organizacao-otimizacao.scss */
+/* line 108, ../sass/website/page/_organizacao-otimizacao.scss */
 #Organization-optimization .wt-row-container .wt_section_heading .titulo {
   font-family: Poppins;
   font-size: 38px;
   color: #fff;
   font-weight: 400;
 }
-/* line 103, ../sass/website/page/_organizacao-otimizacao.scss */
+/* line 115, ../sass/website/page/_organizacao-otimizacao.scss */
 #Organization-optimization .wt-row-container .wt_section_heading .text {
   font-family: Poppins;
   font-size: 17px;
   color: #fff;
   font-weight: 500;
 }
-/* line 114, ../sass/website/page/_organizacao-otimizacao.scss */
+/* line 126, ../sass/website/page/_organizacao-otimizacao.scss */
 #Organization-optimization .wt-row-container .wpb_raw_code .wpb_wrapper .btn {
   font-family: Poppins;
   font-size: 18px;
@@ -766,25 +857,37 @@
   content: '';
   position: absolute;
   width: 57%;
-  height: 57%;
+  height: 61%;
   top: 245px;
   right: -50px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
-/* line 17, ../sass/website/page/_nossos-planos.scss */
+@media screen and (max-width: 980px) {
+  /* line 4, ../sass/website/page/_nossos-planos.scss */
+  #our-plans:before {
+    display: none;
+  }
+}
+/* line 21, ../sass/website/page/_nossos-planos.scss */
 #our-plans #our .plamos {
   margin-left: 90px;
 }
-/* line 20, ../sass/website/page/_nossos-planos.scss */
+/* line 24, ../sass/website/page/_nossos-planos.scss */
 #our-plans #our .plamos .titulo {
   font-family: Poppins;
   font-size: 38px;
   color: #313971;
   font-weight: 400;
 }
-/* line 26, ../sass/website/page/_nossos-planos.scss */
+@media screen and (max-width: 980px) {
+  /* line 24, ../sass/website/page/_nossos-planos.scss */
+  #our-plans #our .plamos .titulo {
+    margin-top: 160px;
+  }
+}
+/* line 34, ../sass/website/page/_nossos-planos.scss */
 #our-plans #our .plamos .sub-titulo {
   font-family: Poppins;
   font-size: 17px;
@@ -792,22 +895,27 @@
   font-weight: 500;
   margin-bottom: 70px;
 }
-/* line 34, ../sass/website/page/_nossos-planos.scss */
+/* line 42, ../sass/website/page/_nossos-planos.scss */
 #our-plans #our .plans {
-  margin-bottom: 40px;
   background-color: #e8e6e4;
 }
-/* line 40, ../sass/website/page/_nossos-planos.scss */
+/* line 47, ../sass/website/page/_nossos-planos.scss */
 #our-plans #our .plans .sub .botao {
   text-align: center;
   padding-right: 155px;
-  min-height: 380px;
+  min-height: 383px;
   justify-content: center;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-/* line 49, ../sass/website/page/_nossos-planos.scss */
+@media screen and (max-width: 980px) {
+  /* line 47, ../sass/website/page/_nossos-planos.scss */
+  #our-plans #our .plans .sub .botao {
+    padding-right: 0 !important;
+  }
+}
+/* line 60, ../sass/website/page/_nossos-planos.scss */
 #our-plans #our .plans .sub .botao .mark {
   background-color: transparent;
   font-family: Poppins;
@@ -815,7 +923,7 @@
   color: #363636;
   font-weight: 400;
 }
-/* line 57, ../sass/website/page/_nossos-planos.scss */
+/* line 68, ../sass/website/page/_nossos-planos.scss */
 #our-plans #our .plans .sub .botao .btn {
   font-family: Poppins;
   font-size: 20px;
@@ -827,23 +935,23 @@
   padding: 12px 35px;
 }
 
-/* line 72, ../sass/website/page/_nossos-planos.scss */
+/* line 83, ../sass/website/page/_nossos-planos.scss */
 #coluna {
   background-color: #FFF;
 }
-/* line 75, ../sass/website/page/_nossos-planos.scss */
+/* line 86, ../sass/website/page/_nossos-planos.scss */
 #coluna .col {
-  margin-top: 70px;
+  margin-top: 90px;
   margin-bottom: 100px;
 }
-/* line 79, ../sass/website/page/_nossos-planos.scss */
+/* line 90, ../sass/website/page/_nossos-planos.scss */
 #coluna .col .image {
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
   height: 370px;
 }
-/* line 88, ../sass/website/page/_nossos-planos.scss */
+/* line 99, ../sass/website/page/_nossos-planos.scss */
 #coluna .col .texto .colum {
   font-family: Poppins;
   font-size: 40px;
@@ -851,7 +959,13 @@
   font-weight: 400;
   margin-bottom: 25px;
 }
-/* line 95, ../sass/website/page/_nossos-planos.scss */
+@media screen and (max-width: 980px) {
+  /* line 99, ../sass/website/page/_nossos-planos.scss */
+  #coluna .col .texto .colum {
+    margin-top: 50px;
+  }
+}
+/* line 110, ../sass/website/page/_nossos-planos.scss */
 #coluna .col .texto .text {
   font-family: Poppins;
   font-size: 18px;
@@ -859,14 +973,14 @@
   font-weight: 500;
   margin-bottom: 35px;
 }
-/* line 102, ../sass/website/page/_nossos-planos.scss */
+/* line 117, ../sass/website/page/_nossos-planos.scss */
 #coluna .col .texto h3 {
   font-family: Poppins;
   font-size: 30px;
   color: #363636;
   font-weight: 400;
 }
-/* line 108, ../sass/website/page/_nossos-planos.scss */
+/* line 123, ../sass/website/page/_nossos-planos.scss */
 #coluna .col .texto p {
   font-family: Poppins;
   font-size: 18px;
@@ -874,14 +988,14 @@
   font-weight: 500;
   margin-bottom: 25px;
 }
-/* line 115, ../sass/website/page/_nossos-planos.scss */
+/* line 130, ../sass/website/page/_nossos-planos.scss */
 #coluna .col .texto p span {
   font-family: Poppins;
   font-size: 37px;
   color: #d56400;
   font-weight: 500;
 }
-/* line 124, ../sass/website/page/_nossos-planos.scss */
+/* line 139, ../sass/website/page/_nossos-planos.scss */
 #coluna .col .texto .botao1 .btn {
   font-family: Poppins;
   font-size: 18px;
@@ -891,50 +1005,63 @@
   border-radius: 3px;
 }
 
-/* line 136, ../sass/website/page/_nossos-planos.scss */
+/* line 151, ../sass/website/page/_nossos-planos.scss */
 .coluna2 {
   margin-bottom: 100px;
 }
-/* line 141, ../sass/website/page/_nossos-planos.scss */
-.coluna2 .texto2 .colum2 {
+@media screen and (max-width: 980px) {
+  /* line 154, ../sass/website/page/_nossos-planos.scss */
+  .coluna2 .column-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+/* line 163, ../sass/website/page/_nossos-planos.scss */
+.coluna2 .column-reverse .texto2 .colum2 {
   font-family: Poppins;
   font-size: 40px;
   color: #363636;
   font-weight: 400;
   margin-bottom: 25px;
 }
-/* line 149, ../sass/website/page/_nossos-planos.scss */
-.coluna2 .texto2 .text2 {
+@media screen and (max-width: 980px) {
+  /* line 163, ../sass/website/page/_nossos-planos.scss */
+  .coluna2 .column-reverse .texto2 .colum2 {
+    margin-top: 50px;
+  }
+}
+/* line 175, ../sass/website/page/_nossos-planos.scss */
+.coluna2 .column-reverse .texto2 .text2 {
   font-family: Poppins;
   font-size: 18px;
   color: #363636;
   font-weight: 500;
   margin-bottom: 35px;
 }
-/* line 156, ../sass/website/page/_nossos-planos.scss */
-.coluna2 .texto2 h3 {
+/* line 182, ../sass/website/page/_nossos-planos.scss */
+.coluna2 .column-reverse .texto2 h3 {
   font-family: Poppins;
   font-size: 30px;
   color: #363636;
   font-weight: 400;
 }
-/* line 162, ../sass/website/page/_nossos-planos.scss */
-.coluna2 .texto2 p {
+/* line 188, ../sass/website/page/_nossos-planos.scss */
+.coluna2 .column-reverse .texto2 p {
   font-family: Poppins;
   font-size: 18px;
   color: #363636;
   font-weight: 500;
   margin-bottom: 35px;
 }
-/* line 169, ../sass/website/page/_nossos-planos.scss */
-.coluna2 .texto2 p span {
+/* line 195, ../sass/website/page/_nossos-planos.scss */
+.coluna2 .column-reverse .texto2 p span {
   font-family: Poppins;
   font-size: 37px;
   color: #d56400;
   font-weight: 500;
 }
-/* line 178, ../sass/website/page/_nossos-planos.scss */
-.coluna2 .texto2 .botao2 .btn2 {
+/* line 204, ../sass/website/page/_nossos-planos.scss */
+.coluna2 .column-reverse .texto2 .botao2 .btn2 {
   font-family: Poppins;
   font-size: 18px;
   background-color: #bc640e;
@@ -942,15 +1069,15 @@
   border: none;
   border-radius: 3px;
 }
-/* line 190, ../sass/website/page/_nossos-planos.scss */
-.coluna2 .img .image2 {
+/* line 216, ../sass/website/page/_nossos-planos.scss */
+.coluna2 .column-reverse .img .image2 {
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
   height: 370px;
 }
 
-/* line 202, ../sass/website/page/_nossos-planos.scss */
+/* line 229, ../sass/website/page/_nossos-planos.scss */
 .coluna3 .texto3 .colum3 {
   font-family: Poppins;
   font-size: 40px;
@@ -958,14 +1085,14 @@
   font-weight: 400;
   margin-bottom: 25px;
 }
-/* line 209, ../sass/website/page/_nossos-planos.scss */
+/* line 236, ../sass/website/page/_nossos-planos.scss */
 .coluna3 .texto3 .text3 {
   font-family: Poppins;
   font-size: 17px;
   color: #393939;
   font-weight: 500;
 }
-/* line 217, ../sass/website/page/_nossos-planos.scss */
+/* line 244, ../sass/website/page/_nossos-planos.scss */
 .coluna3 .texto3 .form .form-control {
   width: 67%;
   height: 50px;
@@ -977,7 +1104,7 @@
   background-color: #e8e6e4;
   border-color: #727277 !important;
 }
-/* line 231, ../sass/website/page/_nossos-planos.scss */
+/* line 258, ../sass/website/page/_nossos-planos.scss */
 .coluna3 .texto3 .form-enviar .btn {
   width: 67%;
   height: 50px;
@@ -987,7 +1114,7 @@
   font-weight: 700;
   margin: 0;
 }
-/* line 244, ../sass/website/page/_nossos-planos.scss */
+/* line 271, ../sass/website/page/_nossos-planos.scss */
 .coluna3 .img .image3 {
   background-repeat: no-repeat;
   background-size: contain;
@@ -1030,28 +1157,45 @@
   padding-top: 120px;
   padding-bottom: 60px;
 }
-/* line 9, ../sass/website/page/_choice.scss */
-#choice .text .wpb_wrapper .titulo {
+/* line 5, ../sass/website/page/_choice.scss */
+#choice .titulo {
   font-family: Poppins;
   font-size: 38px;
   color: #313971;
   font-weight: 400;
+  margin-bottom: 40px;
+  margin-left: -18px;
 }
-/* line 15, ../sass/website/page/_choice.scss */
+@media screen and (max-width: 980px) {
+  /* line 5, ../sass/website/page/_choice.scss */
+  #choice .titulo {
+    margin-top: 140px;
+    margin-bottom: 40px;
+  }
+}
+@media screen and (max-width: 980px) {
+  /* line 18, ../sass/website/page/_choice.scss */
+  #choice .text {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+/* line 26, ../sass/website/page/_choice.scss */
 #choice .text .wpb_wrapper h3 {
   font-family: Poppins;
   font-size: 30px;
   color: #313971;
   font-weight: 400 !important;
 }
-/* line 21, ../sass/website/page/_choice.scss */
+/* line 32, ../sass/website/page/_choice.scss */
 #choice .text .wpb_wrapper h4 {
   font-family: Poppins;
   font-size: 25px;
   color: #313971;
   font-weight: 400 !important;
+  margin-bottom: 45px;
 }
-/* line 27, ../sass/website/page/_choice.scss */
+/* line 39, ../sass/website/page/_choice.scss */
 #choice .text .wpb_wrapper p {
   font-family: Poppins;
   font-size: 16px;
@@ -1059,12 +1203,12 @@
   font-weight: 500;
   padding-bottom: 20px;
 }
-/* line 34, ../sass/website/page/_choice.scss */
+/* line 46, ../sass/website/page/_choice.scss */
 #choice .text .wpb_wrapper p .dashicons {
   font-size: 25px;
   width: 30px;
 }
-/* line 41, ../sass/website/page/_choice.scss */
+/* line 53, ../sass/website/page/_choice.scss */
 #choice .text .wpb_wrapper .wpcf7 .wpcf7-form-control {
   width: 67%;
   height: 50px;
@@ -1076,11 +1220,17 @@
   border-color: #727277;
   background-color: #e8e6e4;
 }
-/* line 52, ../sass/website/page/_choice.scss */
+@media screen and (max-width: 980px) {
+  /* line 53, ../sass/website/page/_choice.scss */
+  #choice .text .wpb_wrapper .wpcf7 .wpcf7-form-control {
+    width: 100%;
+  }
+}
+/* line 68, ../sass/website/page/_choice.scss */
 #choice .text .wpb_wrapper .wpcf7 .wpcf7-file {
   padding-top: 13px;
 }
-/* line 55, ../sass/website/page/_choice.scss */
+/* line 71, ../sass/website/page/_choice.scss */
 #choice .text .wpb_wrapper .wpcf7 .wpcf7-submit {
   width: 67%;
   height: 50px;
@@ -1089,6 +1239,12 @@
   background-color: #bc640e;
   font-weight: 700;
   margin: 0;
+}
+@media screen and (max-width: 980px) {
+  /* line 71, ../sass/website/page/_choice.scss */
+  #choice .text .wpb_wrapper .wpcf7 .wpcf7-submit {
+    width: 100%;
+  }
 }
 
 /* line 5, ../sass/website/page/_cart.scss */

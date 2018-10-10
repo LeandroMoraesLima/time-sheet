@@ -2,16 +2,27 @@
 	padding-top: 120px;
     padding-bottom: 60px;
 
+	.titulo{ 
+		font-family: Poppins;
+	    font-size: 38px;
+	    color: #313971;
+	    font-weight: 400;
+	    margin-bottom: 40px;
+    	margin-left: -18px;
+
+	    @media screen and (max-width: 980px){
+			margin-top: 140px;
+   			margin-bottom: 40px;					
+		}
+	}
 	.text{
 
+		@media screen and (max-width: 980px){
+			display: flex;
+			flex-direction: column-reverse;							
+		}
 		.wpb_wrapper{
 
-			.titulo{
-				font-family: Poppins;
-			    font-size: 38px;
-			    color: #313971;
-			    font-weight: 400;
-			}
 		    h3{
 		    	font-family: Poppins;
 			    font-size: 30px;
@@ -23,6 +34,7 @@
 			    font-size: 25px;
 			    color: #313971;
 			    font-weight: 400 !important;
+			    margin-bottom: 45px;
 		    }
 		    p{
 		    	font-family: Poppins;
@@ -48,6 +60,10 @@
 				    border-radius: 2px; 
 				    border-color: #727277;
 				    background-color: #e8e6e4;
+
+				    @media screen and (max-width: 980px){
+						width: 100%;						
+					}
 				}
 				.wpcf7-file{
 					padding-top: 13px;
@@ -60,8 +76,13 @@
 				    background-color: #bc640e;
 				    font-weight: 700;
 				    margin: 0;
+
+				    @media screen and (max-width: 980px){
+						width: 100%;						
+					}
 				}
-			}			
-		}
+			}	
+
+		}	
 	}
 }
