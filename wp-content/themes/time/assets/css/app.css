@@ -445,13 +445,19 @@
   color: #ffffff;
   font-weight: 400;
 }
-/* line 72, ../sass/website/home/_footer.scss */
+@media screen and (max-width: 980px) {
+  /* line 69, ../sass/website/home/_footer.scss */
+  #wt_footerWrapper .clearfix .mc4wp-form {
+    width: 100%;
+  }
+}
+/* line 76, ../sass/website/home/_footer.scss */
 #wt_footerWrapper .clearfix .mc4wp-form p .form-control {
   background-color: #fff !important;
   border-color: #fff !important;
   border: 1px solid #ddd !important;
 }
-/* line 77, ../sass/website/home/_footer.scss */
+/* line 81, ../sass/website/home/_footer.scss */
 #wt_footerWrapper .clearfix .mc4wp-form p .mc4wp_submit {
   font-family: Poppins;
   font-size: 12px;
@@ -461,7 +467,7 @@
   margin-top: 10px;
   border: 1px solid #ddd !important;
 }
-/* line 90, ../sass/website/home/_footer.scss */
+/* line 94, ../sass/website/home/_footer.scss */
 #wt_footerWrapper .clearfix .widget .wt_subscribe {
   font-family: Poppins;
   font-size: 14px !important;
@@ -469,21 +475,27 @@
   font-weight: 400;
   text-align: right;
 }
+@media screen and (max-width: 980px) {
+  /* line 94, ../sass/website/home/_footer.scss */
+  #wt_footerWrapper .clearfix .widget .wt_subscribe {
+    text-align: center;
+  }
+}
 
 /* Footer Black Section */
-/* line 106, ../sass/website/home/_footer.scss */
+/* line 114, ../sass/website/home/_footer.scss */
 #black .titulo {
   text-align: center;
   padding: 15px;
 }
-/* line 110, ../sass/website/home/_footer.scss */
+/* line 118, ../sass/website/home/_footer.scss */
 #black .titulo span {
   font-family: Poppins;
   font-size: 17px;
   color: #7f7f7f;
   font-weight: 400;
 }
-/* line 116, ../sass/website/home/_footer.scss */
+/* line 124, ../sass/website/home/_footer.scss */
 #black .titulo a {
   font-family: Poppins;
   font-size: 17px;

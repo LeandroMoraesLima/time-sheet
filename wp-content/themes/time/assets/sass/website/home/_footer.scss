@@ -66,7 +66,11 @@
 				}
 			}
 		}
-		.mc4wp-form{			   
+		.mc4wp-form{		
+
+			@media screen and (max-width: 980px){
+				width: 100%;							
+			}	   
 
 			p{
 				.form-control{
@@ -93,6 +97,10 @@
 			    color: #ffffff;
 			    font-weight: 400;
 			    text-align: right;
+
+			    @media screen and (max-width: 980px){
+					text-align: center;							
+				}
 			}
 		}
 	}
