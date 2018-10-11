@@ -48,12 +48,12 @@ Footer Section
 							<ul class="wt_icon_40 wt_icon_type_1 wt_circle">
 								<li class="logos" data-alt="Facebook">
 									<a href="<?php echo get_field('fo_link_facebook','options'); ?>" class="facebook" rel="nofollow" title="Facebook" target="_blank">
-										<span class="dashicons dashicons-facebook"></span>
+										<i class="fa fa-facebook-f"></i>
 									</a>
 								</li>
 								<li class="logos" data-alt="twitter">
 									<a href="<?php echo get_field('fo_link_twitter','options'); ?>" class="twitter" rel="nofollow" title="twitter" target="_blank">
-										<span class="dashicons dashicons-twitter"></span>
+										<i class="fa fa-twitter"></i>
 									</a>
 								</li>
 								<li class="logos" data-alt="instagram">
