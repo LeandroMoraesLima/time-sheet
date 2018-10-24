@@ -177,7 +177,7 @@ pricing Section
 						<div class="vc_column-inner clearfix">
 							<div class="wpb_wrapper wt_wpb_wrapper clearfix">
 								<div class="wt_section_heading intro_text text-center clearfix">
-									<h2><?php echo get_field('pr_titulo'); ?></h2>									
+									<h2><?php echo get_field('pr_titulo'); ?></h2>				
 									<h3><?php echo get_field('pr_sub_titulo'); ?></h3>
 									<div class="botao">
 										<h4>

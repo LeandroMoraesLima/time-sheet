@@ -7,11 +7,19 @@
 
 			.widget{
 
+				@media screen and (max-width: 980px){
+					text-align: center;							
+				}
+
 				.mapa{
 					font-family: Poppins;
 				    font-size: 14px;
 				    color: #ffffff;
 				    font-weight: 600;
+
+				    @media screen and (max-width: 980px){
+						font-size: 18px;						
+					}
 				}
 				.menu{					
 
@@ -25,7 +33,11 @@
 							font-family: Poppins;
 						    font-size: 14px;
 						    color: #ffffff;
-						    font-weight: 300;					    
+						    font-weight: 300;	
+
+						    @media screen and (max-width: 980px){
+								font-size: 18px;						
+							}				    
 						}
 					}
 				}

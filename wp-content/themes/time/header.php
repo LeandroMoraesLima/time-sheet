@@ -5,7 +5,8 @@
 	<title>TimeSheet</title>
 
 	<?php wp_head(); ?>
-	
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="<?php echo CSS; ?>/app.css?v=2">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -35,6 +36,28 @@ Header
 				
 			</nav>
 		</div> 	
-		<!-- End container -->    
+		<!-- End container -->		  
+
+		<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<?php wp_nav_menu(array(
+				'theme_location' => 'header',
+				'menu_class' => 'menu nav navbar-nav navbar-right',
+				'menu_id' => 'menu-menu-1',
+				'container' => ''
+			) ); ?>
+		</div>
+
+		<span class="cel" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+		<script>
+			function openNav() {
+				document.getElementById("mySidenav").style.width = "362px";
+			}
+
+			function closeNav() {
+			    document.getElementById("mySidenav").style.width = "0";
+			}
+		</script> 
 	</header>
 
