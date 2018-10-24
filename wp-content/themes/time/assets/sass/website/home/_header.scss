@@ -13,10 +13,10 @@
 	}
 	.wt_nav_top{
 
-		.menu{
-			
-			.menu-item{
+		.menu{			
 
+			.menu-item{
+				
 				a{
 					font-family: Poppins !important;
 				    font-size: 13px !important;
@@ -29,4 +29,57 @@
 			}
 		}
 	}
+}
+#menu-menu-1{
+
+	@media screen and (max-width: 980px){
+		margin-left: 45px;											
+	}
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    font-family: Poppins !important;
+    color: #393939 !important;
+    font-weight: 800;
+
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.cel{
+	position: absolute;
+    right: 31px;
+    top: 17px;
 }

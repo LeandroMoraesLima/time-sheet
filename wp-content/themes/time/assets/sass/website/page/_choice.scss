@@ -2,6 +2,11 @@
 	padding-top: 120px;
     padding-bottom: 60px;
 
+    @media screen and (max-width: 980px){
+		padding-top: 70px;	
+		padding-bottom: 50px;			
+	}
+
 	.titulo{ 
 		font-family: Poppins;
 	    font-size: 38px;
@@ -11,8 +16,7 @@
     	margin-left: -18px;
 
 	    @media screen and (max-width: 980px){
-			margin-top: 140px;
-   			margin-bottom: 40px;					
+			text-align: center;					
 		}
 	}
 	.text{
@@ -35,6 +39,10 @@
 			    color: #313971;
 			    font-weight: 400 !important;
 			    margin-bottom: 45px;
+
+			    @media screen and (max-width: 980px){
+					text-align: center;			
+				}
 		    }
 		    p{
 		    	font-family: Poppins;

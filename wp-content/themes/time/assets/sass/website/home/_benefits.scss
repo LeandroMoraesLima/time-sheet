@@ -29,6 +29,11 @@
 			    font-size: 38px;
 			    color: #313971;
 			    font-weight: 400;
+
+			    @media screen and (max-width: 980px){
+					text-align: center;										
+				}
+
 			}
 			ul{
 			    list-style-type: none;
@@ -38,8 +43,15 @@
 			    font-weight: 400;
 			    margin: 0;
 
+			    @media screen and (max-width: 980px){
+					padding: 0px 30px;									
+				}
 
 				li{
+
+					@media screen and (max-width: 980px){
+						padding-top: 20px;								
+					}	
 
 					&:before{
 						background-color: #313971;

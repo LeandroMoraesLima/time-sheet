@@ -7,7 +7,7 @@
 	function load_scripts()
 	{
 
-		$versao = '0.0.2';
+		$versao = '0.0.3';
 
 		/* Registering style */
 		wp_register_style('animatecss', CSS . '/animate.css', array(), $versao, false );
@@ -82,3 +82,4 @@ register_nav_menus( array(
 	'footer' => 'Footer Menu',
 	'footer2' => 'Footer Menu2',
 ) );
+

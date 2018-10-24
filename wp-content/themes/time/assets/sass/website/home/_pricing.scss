@@ -31,12 +31,21 @@
 			    color: #393939;
 			    font-weight: 500;
 
+			    @media screen and (max-width: 980px){
+					margin: 5px;							
+				}
 				.btn{
 					font-family: Poppins;
 				    font-size: 18px;
 				    background-color: #bc640e;
 				    font-weight: 700;
 				    margin-right: 20px;
+
+				    @media screen and (max-width: 980px){
+						margin-bottom: 15px;
+						padding: 10px 50px;
+						margin-right: 0;
+					}	
 				}
 			}
 		}
@@ -126,19 +135,35 @@
 					.form{
 						padding-top: 10px;
 
+						@media screen and (max-width: 980px){
+							width: 100%;	
+							margin-bottom: 3px !important;
+						}
 						.form-control{
 							border-radius: 0px;
+
+							@media screen and (max-width: 980px){
+							margin-bottom: 3px !important;
+						}
+
 						}
 					}
 					.form-enviar{
-						padding-top: 10px;					
+						padding-top: 10px;
 
+						@media screen and (max-width: 980px){
+							width: 100%;	
+						}
 						.btn{
 							width: 100%;
 							font-family: Poppins;
 						    font-size: 18px;
 						    background-color: #bc640e;
 						    font-weight: 700;
+
+						    @media screen and (max-width: 980px){
+								padding: 12px 107px;				
+							}
 						}
 					}
 				}
