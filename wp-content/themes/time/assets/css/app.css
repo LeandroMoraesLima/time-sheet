@@ -115,25 +115,32 @@
   left: 0px;
   right: 0px;
 }
-/* line 21, ../sass/website/home/_slider.scss */
+@media screen and (max-width: 980px) {
+  /* line 19, ../sass/website/home/_slider.scss */
+  #wt_containerWrapper .wt_section_area .vc_row {
+    padding-top: 100px !important;
+    padding-bottom: 10px !important;
+  }
+}
+/* line 25, ../sass/website/home/_slider.scss */
 #wt_containerWrapper .wt_section_area .vc_row .text {
   display: flex;
   align-items: center;
 }
 @media screen and (max-width: 980px) {
-  /* line 21, ../sass/website/home/_slider.scss */
+  /* line 25, ../sass/website/home/_slider.scss */
   #wt_containerWrapper .wt_section_area .vc_row .text {
     justify-content: center !important;
     flex-direction: column !important;
   }
 }
 @media screen and (max-width: 980px) {
-  /* line 30, ../sass/website/home/_slider.scss */
+  /* line 34, ../sass/website/home/_slider.scss */
   #wt_containerWrapper .wt_section_area .vc_row .text .wpb_wrapper {
     text-align: center;
   }
 }
-/* line 36, ../sass/website/home/_slider.scss */
+/* line 40, ../sass/website/home/_slider.scss */
 #wt_containerWrapper .wt_section_area .vc_row .text .wpb_wrapper h1 {
   font-family: Poppins;
   font-size: 40px;
@@ -141,12 +148,12 @@
   font-weight: 800;
 }
 @media screen and (max-width: 980px) {
-  /* line 36, ../sass/website/home/_slider.scss */
+  /* line 40, ../sass/website/home/_slider.scss */
   #wt_containerWrapper .wt_section_area .vc_row .text .wpb_wrapper h1 {
     font-size: 35px;
   }
 }
-/* line 46, ../sass/website/home/_slider.scss */
+/* line 50, ../sass/website/home/_slider.scss */
 #wt_containerWrapper .wt_section_area .vc_row .text .wpb_wrapper h4 {
   font-family: Poppins;
   font-size: 18px;
@@ -155,12 +162,12 @@
   line-height: 1.4em;
 }
 @media screen and (max-width: 980px) {
-  /* line 46, ../sass/website/home/_slider.scss */
+  /* line 50, ../sass/website/home/_slider.scss */
   #wt_containerWrapper .wt_section_area .vc_row .text .wpb_wrapper h4 {
     padding: 25px;
   }
 }
-/* line 57, ../sass/website/home/_slider.scss */
+/* line 61, ../sass/website/home/_slider.scss */
 #wt_containerWrapper .wt_section_area .vc_row .text .wpb_wrapper h4 span {
   font-family: Poppins;
   font-size: 18px;
@@ -168,39 +175,38 @@
   font-weight: 600;
 }
 @media screen and (max-width: 980px) {
-  /* line 66, ../sass/website/home/_slider.scss */
+  /* line 70, ../sass/website/home/_slider.scss */
   #wt_containerWrapper .wt_section_area .vc_row .text .wpb_column {
     width: 100%;
-    margin-top: 100px;
     padding-left: 0;
   }
 }
 @media screen and (max-width: 980px) {
-  /* line 73, ../sass/website/home/_slider.scss */
+  /* line 76, ../sass/website/home/_slider.scss */
   #wt_containerWrapper .wt_section_area .vc_row .text .wpb_column .wpcf7 {
     padding: 15px;
   }
 }
-/* line 78, ../sass/website/home/_slider.scss */
+/* line 81, ../sass/website/home/_slider.scss */
 #wt_containerWrapper .wt_section_area .vc_row .text .wpb_column .wpcf7 .wpcf7-form {
   background: rgba(51, 71, 87, 0.8);
   border-radius: 3px;
 }
-/* line 83, ../sass/website/home/_slider.scss */
+/* line 86, ../sass/website/home/_slider.scss */
 #wt_containerWrapper .wt_section_area .vc_row .text .wpb_column .wpcf7 .wpcf7-form h2 {
   font-family: Poppins;
   font-size: 20px;
   color: #ffffff;
   font-weight: 500;
 }
-/* line 92, ../sass/website/home/_slider.scss */
+/* line 95, ../sass/website/home/_slider.scss */
 #wt_containerWrapper .wt_section_area .vc_row .text .wpb_column .wpcf7 .wpcf7-form .wpcf7-form-control-wrap .wpcf7-form-control {
   margin-bottom: 10px;
   font-family: Poppins;
   color: #bebebe;
   font-weight: 400;
 }
-/* line 99, ../sass/website/home/_slider.scss */
+/* line 102, ../sass/website/home/_slider.scss */
 #wt_containerWrapper .wt_section_area .vc_row .text .wpb_column .wpcf7 .wpcf7-form .wpcf7-submit {
   font-family: Poppins;
   font-size: 18px;
@@ -1076,7 +1082,7 @@
 @media screen and (max-width: 980px) {
   /* line 46, ../sass/website/page/_organizacao-otimizacao.scss */
   #Organization-optimization #Organization .image .img {
-    height: 200px;
+    height: 238px;
   }
 }
 /* line 57, ../sass/website/page/_organizacao-otimizacao.scss */
