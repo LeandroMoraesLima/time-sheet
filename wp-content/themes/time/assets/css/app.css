@@ -86,6 +86,13 @@
   position: absolute;
   right: 31px;
   top: 17px;
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  /* line 81, ../sass/website/home/_header.scss */
+  .cel {
+    display: block;
+  }
 }
 
 /* line 1, ../sass/website/home/_slider.scss */
@@ -1010,7 +1017,13 @@
 #Organization-optimization {
   background-color: #eeeeef;
 }
-/* line 6, ../sass/website/page/_organizacao-otimizacao.scss */
+@media screen and (max-width: 980px) {
+  /* line 1, ../sass/website/page/_organizacao-otimizacao.scss */
+  #Organization-optimization {
+    padding-top: 75px !important;
+  }
+}
+/* line 10, ../sass/website/page/_organizacao-otimizacao.scss */
 #Organization-optimization #Organization .titulo {
   font-family: Poppins;
   font-size: 25px;
@@ -1019,12 +1032,13 @@
   margin-bottom: 70px;
 }
 @media screen and (max-width: 980px) {
-  /* line 6, ../sass/website/page/_organizacao-otimizacao.scss */
+  /* line 10, ../sass/website/page/_organizacao-otimizacao.scss */
   #Organization-optimization #Organization .titulo {
-    margin-top: 145px;
+    text-align: center;
+    margin-bottom: 35px;
   }
 }
-/* line 17, ../sass/website/page/_organizacao-otimizacao.scss */
+/* line 22, ../sass/website/page/_organizacao-otimizacao.scss */
 #Organization-optimization #Organization h3 {
   font-family: Poppins;
   font-size: 19px;
@@ -1032,7 +1046,13 @@
   font-weight: 600;
   margin-bottom: 20px;
 }
-/* line 24, ../sass/website/page/_organizacao-otimizacao.scss */
+@media screen and (max-width: 980px) {
+  /* line 22, ../sass/website/page/_organizacao-otimizacao.scss */
+  #Organization-optimization #Organization h3 {
+    text-align: center;
+  }
+}
+/* line 33, ../sass/website/page/_organizacao-otimizacao.scss */
 #Organization-optimization #Organization p {
   font-family: Poppins;
   font-size: 15px;
@@ -1040,33 +1060,58 @@
   font-weight: 500;
   margin-bottom: 30px;
 }
-/* line 33, ../sass/website/page/_organizacao-otimizacao.scss */
+@media screen and (max-width: 980px) {
+  /* line 33, ../sass/website/page/_organizacao-otimizacao.scss */
+  #Organization-optimization #Organization p {
+    text-align: center;
+  }
+}
+/* line 46, ../sass/website/page/_organizacao-otimizacao.scss */
 #Organization-optimization #Organization .image .img {
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
   height: 370px;
 }
-/* line 40, ../sass/website/page/_organizacao-otimizacao.scss */
+@media screen and (max-width: 980px) {
+  /* line 46, ../sass/website/page/_organizacao-otimizacao.scss */
+  #Organization-optimization #Organization .image .img {
+    height: 200px;
+  }
+}
+/* line 57, ../sass/website/page/_organizacao-otimizacao.scss */
 #Organization-optimization #Organization .Organization2 {
   margin-top: 80px;
   margin-bottom: 85px;
 }
 @media screen and (max-width: 980px) {
-  /* line 44, ../sass/website/page/_organizacao-otimizacao.scss */
+  /* line 57, ../sass/website/page/_organizacao-otimizacao.scss */
+  #Organization-optimization #Organization .Organization2 {
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 980px) {
+  /* line 66, ../sass/website/page/_organizacao-otimizacao.scss */
   #Organization-optimization #Organization .Organization2 .column-reverse {
     display: flex;
     flex-direction: column-reverse;
   }
 }
-/* line 53, ../sass/website/page/_organizacao-otimizacao.scss */
+/* line 75, ../sass/website/page/_organizacao-otimizacao.scss */
 #Organization-optimization #Organization .Organization2 .column-reverse .image2 .img2 {
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
   height: 370px;
 }
-/* line 62, ../sass/website/page/_organizacao-otimizacao.scss */
+@media screen and (max-width: 980px) {
+  /* line 75, ../sass/website/page/_organizacao-otimizacao.scss */
+  #Organization-optimization #Organization .Organization2 .column-reverse .image2 .img2 {
+    height: 200px;
+  }
+}
+/* line 88, ../sass/website/page/_organizacao-otimizacao.scss */
 #Organization-optimization #Organization .Organization2 .column-reverse .text2 .campo {
   font-family: Poppins;
   font-size: 15px;
@@ -1074,7 +1119,7 @@
   font-weight: 500;
   margin-top: 47px;
 }
-/* line 69, ../sass/website/page/_organizacao-otimizacao.scss */
+/* line 95, ../sass/website/page/_organizacao-otimizacao.scss */
 #Organization-optimization #Organization .Organization2 .column-reverse .text2 .campo1 {
   font-family: Poppins;
   font-size: 15px;
@@ -1082,7 +1127,7 @@
   font-weight: 500;
   margin-top: 20px;
 }
-/* line 82, ../sass/website/page/_organizacao-otimizacao.scss */
+/* line 108, ../sass/website/page/_organizacao-otimizacao.scss */
 #Organization-optimization #Organization .sub-texto .texto {
   font-family: Poppins;
   font-size: 15px;
@@ -1090,14 +1135,20 @@
   font-weight: 500;
   margin-bottom: 160px;
 }
-/* line 91, ../sass/website/page/_organizacao-otimizacao.scss */
+/* line 117, ../sass/website/page/_organizacao-otimizacao.scss */
 #Organization-optimization .wt-row-container {
   margin-top: 128px;
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-/* line 97, ../sass/website/page/_organizacao-otimizacao.scss */
+@media screen and (max-width: 980px) {
+  /* line 117, ../sass/website/page/_organizacao-otimizacao.scss */
+  #Organization-optimization .wt-row-container {
+    margin-top: 50px;
+  }
+}
+/* line 126, ../sass/website/page/_organizacao-otimizacao.scss */
 #Organization-optimization .wt-row-container:before {
   content: '';
   position: absolute;
@@ -1107,21 +1158,21 @@
   left: 0px;
   right: 0px;
 }
-/* line 108, ../sass/website/page/_organizacao-otimizacao.scss */
+/* line 138, ../sass/website/page/_organizacao-otimizacao.scss */
 #Organization-optimization .wt-row-container .wt_section_heading .titulo {
   font-family: Poppins;
   font-size: 38px;
   color: #fff;
   font-weight: 400;
 }
-/* line 115, ../sass/website/page/_organizacao-otimizacao.scss */
+/* line 145, ../sass/website/page/_organizacao-otimizacao.scss */
 #Organization-optimization .wt-row-container .wt_section_heading .text {
   font-family: Poppins;
   font-size: 17px;
   color: #fff;
   font-weight: 500;
 }
-/* line 126, ../sass/website/page/_organizacao-otimizacao.scss */
+/* line 156, ../sass/website/page/_organizacao-otimizacao.scss */
 #Organization-optimization .wt-row-container .wpb_raw_code .wpb_wrapper .btn {
   font-family: Poppins;
   font-size: 18px;
