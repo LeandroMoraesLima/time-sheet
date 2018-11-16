@@ -399,7 +399,7 @@
 #pricing .wt_section_heading .botao h4 .btn {
   font-family: Poppins;
   font-size: 18px;
-  background-color: #bc640e;
+  background-color: #313971;
   font-weight: 700;
   margin-right: 20px;
 }
@@ -452,7 +452,7 @@
   font-size: 15px;
   color: #fff;
   font-weight: 500;
-  background-color: #bc640e;
+  background-color: #313971;
   border-radius: 3px;
 }
 /* line 113, ../sass/website/home/_pricing.scss */
@@ -516,7 +516,7 @@
   width: 100%;
   font-family: Poppins;
   font-size: 18px;
-  background-color: #bc640e;
+  background-color: #313971;
   font-weight: 700;
 }
 @media screen and (max-width: 980px) {
