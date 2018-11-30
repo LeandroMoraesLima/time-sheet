@@ -39,6 +39,7 @@ $fields2 = array(
 	'billing_postcode' => $fields['billing_postcode'],
 	'billing_phone' => $fields['billing_phone'],
 	'billing_email' => $fields['billing_email'],
+	'billing_cnpj' => $fields['billing_cnpj'],
 	'billing_company' => $fields['billing_company'],
 	'billing_country' => $fields['billing_country'],
 
@@ -76,7 +77,11 @@ $fields2 = array(
 					$field['class'][0] = 'form-row-last'; 
 				}
 				if( $key == 'billing_email' ){
-					$field['class'][0] = 'form-row-wide'; 
+					$field['class'][0] = 'form-row-first'; 
+				}
+				if( $key == 'billing_cnpj' ){
+					$field['class'][0] = 'form-row-last';
+					$field['placeholder'] = 'CNPJ';
 				}
 				if( $key == 'billing_company' ){
 					$field['class'][0] = 'form-row-wide'; 
