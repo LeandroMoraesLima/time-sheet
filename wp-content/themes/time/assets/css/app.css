@@ -1270,7 +1270,7 @@
 #our-plans #our .plans .sub .botao .btn {
   font-family: Poppins;
   font-size: 20px;
-  background-color: #bc640e;
+  background-color: #313971;
   font-weight: 700;
   border: none;
   border-radius: 5px;
@@ -1367,7 +1367,7 @@
 #coluna .col .texto .botao1 .btn {
   font-family: Poppins;
   font-size: 18px;
-  background-color: #bc640e;
+  background-color: #313971;
   font-weight: 700;
   border: none;
   border-radius: 3px;
@@ -1450,7 +1450,7 @@
 .coluna2 .column-reverse .texto2 .botao2 .btn2 {
   font-family: Poppins;
   font-size: 18px;
-  background-color: #bc640e;
+  background-color: #313971;
   font-weight: 700;
   border: none;
   border-radius: 3px;
@@ -1508,7 +1508,7 @@
   height: 50px;
   font-family: Poppins;
   font-size: 18px;
-  background-color: #bc640e;
+  background-color: #313971;
   font-weight: 700;
   margin: 0;
 }
@@ -1805,8 +1805,17 @@
   width: 50%;
   font-family: Poppins;
   font-size: 18px;
-  background-color: #bc640e;
+  background-color: #313971;
   font-weight: 700;
   margin-left: 168px;
   float: none !important;
+}
+/* line 44, ../sass/website/page/_checkout.scss */
+#checkout .text h3 {
+  font-family: Poppins;
+  font-weight: 500;
+}
+/* line 48, ../sass/website/page/_checkout.scss */
+#checkout .text .woocommerce-checkout-review-order {
+  font-family: Poppins;
 }

@@ -34,12 +34,19 @@
 	    		    width: 50%;
 				    font-family: Poppins;
 				    font-size: 18px;
-				    background-color: #bc640e;
+				    background-color: #313971;
 				    font-weight: 700;
 				    margin-left: 168px;
 				    float: none !important;
 		    	}
 		    }
+		}
+		h3{
+			font-family: Poppins;
+			font-weight: 500;
+		}
+		.woocommerce-checkout-review-order{
+			font-family: Poppins;
 		}
 	}
 }
