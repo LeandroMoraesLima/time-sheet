@@ -210,10 +210,11 @@
 #wt_containerWrapper .wt_section_area .vc_row .text .wpb_column .wpcf7 .wpcf7-form .wpcf7-submit {
   font-family: Poppins;
   font-size: 18px;
-  background-color: #bc640e;
+  background-color: #ffffff !important;
   font-weight: 700;
   margin-bottom: 10px;
   margin-top: 30px;
+  color: #313971 !important;
 }
 
 /* line 1, ../sass/website/home/_benefits.scss */
@@ -518,6 +519,7 @@
   font-size: 18px;
   background-color: #313971;
   font-weight: 700;
+  color: #fff !important;
 }
 @media screen and (max-width: 980px) {
   /* line 157, ../sass/website/home/_pricing.scss */
@@ -671,7 +673,7 @@
   font-size: 12px;
   color: #ffffff;
   font-weight: 700;
-  background-color: #bc640e;
+  background-color: #313971;
   margin-top: 10px;
   border: 1px solid #ddd !important;
 }
@@ -745,7 +747,7 @@
 #slider-down .wt-row-container .wpb_raw_code .wpb_wrapper .btn {
   font-family: Poppins;
   font-size: 18px;
-  background-color: #bc640e;
+  background-color: #313971;
   font-weight: 700;
   margin-right: 20px;
   border: none;
@@ -938,7 +940,7 @@
 #other-products #other .text .botao .btn {
   font-family: Poppins;
   font-size: 18px;
-  background-color: #bc640e;
+  background-color: #313971;
   font-weight: 700;
   border: none;
   border-radius: 3px;
@@ -1000,7 +1002,7 @@
 #other-products #other .other2 .column-revese .img2 .botao2 .btn {
   font-family: Poppins;
   font-size: 18px;
-  background-color: #bc640e;
+  background-color: #313971;
   font-weight: 700;
   border: none;
   border-radius: 3px;
@@ -1656,7 +1658,7 @@
   height: 50px;
   font-family: Poppins;
   font-size: 18px;
-  background-color: #bc640e;
+  background-color: #313971;
   font-weight: 700;
   margin: 0;
 }
