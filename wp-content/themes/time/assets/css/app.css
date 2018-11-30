@@ -848,21 +848,25 @@
   }
 }
 /* line 29, ../sass/website/page/_outros-produtos.scss */
+#other-products #other h2 {
+  margin-bottom: 30px;
+}
+/* line 32, ../sass/website/page/_outros-produtos.scss */
 #other-products #other p {
   font-family: Poppins;
   font-size: 17px;
   color: #393939;
   font-weight: 500;
-  margin-bottom: 113px;
+  margin-bottom: 95px;
 }
 @media screen and (max-width: 980px) {
-  /* line 29, ../sass/website/page/_outros-produtos.scss */
+  /* line 32, ../sass/website/page/_outros-produtos.scss */
   #other-products #other p {
     text-align: center;
     margin-bottom: 50px;
   }
 }
-/* line 43, ../sass/website/page/_outros-produtos.scss */
+/* line 46, ../sass/website/page/_outros-produtos.scss */
 #other-products #other .img .image {
   background-repeat: no-repeat;
   background-size: contain;
@@ -870,22 +874,22 @@
   height: 370px;
 }
 @media screen and (max-width: 980px) {
-  /* line 43, ../sass/website/page/_outros-produtos.scss */
+  /* line 46, ../sass/website/page/_outros-produtos.scss */
   #other-products #other .img .image {
     height: 225px;
   }
 }
-/* line 54, ../sass/website/page/_outros-produtos.scss */
+/* line 57, ../sass/website/page/_outros-produtos.scss */
 #other-products #other .text {
   padding-left: 48px;
 }
 @media screen and (max-width: 980px) {
-  /* line 54, ../sass/website/page/_outros-produtos.scss */
+  /* line 57, ../sass/website/page/_outros-produtos.scss */
   #other-products #other .text {
     padding-left: 20px;
   }
 }
-/* line 61, ../sass/website/page/_outros-produtos.scss */
+/* line 64, ../sass/website/page/_outros-produtos.scss */
 #other-products #other .text .logo {
   background-repeat: no-repeat;
   background-size: auto;
@@ -894,14 +898,14 @@
   margin-bottom: 25px;
 }
 @media screen and (max-width: 980px) {
-  /* line 61, ../sass/website/page/_outros-produtos.scss */
+  /* line 64, ../sass/website/page/_outros-produtos.scss */
   #other-products #other .text .logo {
     margin-top: 30px;
     margin-left: 15px;
     margin-bottom: 32px;
   }
 }
-/* line 74, ../sass/website/page/_outros-produtos.scss */
+/* line 77, ../sass/website/page/_outros-produtos.scss */
 #other-products #other .text h4 {
   font-family: Poppins;
   font-size: 18px;
@@ -910,13 +914,13 @@
   margin-bottom: 5px;
 }
 @media screen and (max-width: 980px) {
-  /* line 74, ../sass/website/page/_outros-produtos.scss */
+  /* line 77, ../sass/website/page/_outros-produtos.scss */
   #other-products #other .text h4 {
     text-align: center;
     margin-bottom: 12px;
   }
 }
-/* line 87, ../sass/website/page/_outros-produtos.scss */
+/* line 90, ../sass/website/page/_outros-produtos.scss */
 #other-products #other .text p {
   font-family: Poppins;
   font-size: 18px;
@@ -925,18 +929,18 @@
   margin-bottom: 105px;
 }
 @media screen and (max-width: 980px) {
-  /* line 87, ../sass/website/page/_outros-produtos.scss */
+  /* line 90, ../sass/website/page/_outros-produtos.scss */
   #other-products #other .text p {
     margin-bottom: 30px;
   }
 }
 @media screen and (max-width: 980px) {
-  /* line 98, ../sass/website/page/_outros-produtos.scss */
+  /* line 101, ../sass/website/page/_outros-produtos.scss */
   #other-products #other .text .botao {
     text-align: center;
   }
 }
-/* line 104, ../sass/website/page/_outros-produtos.scss */
+/* line 107, ../sass/website/page/_outros-produtos.scss */
 #other-products #other .text .botao .btn {
   font-family: Poppins;
   font-size: 18px;
@@ -945,24 +949,24 @@
   border: none;
   border-radius: 3px;
 }
-/* line 114, ../sass/website/page/_outros-produtos.scss */
+/* line 117, ../sass/website/page/_outros-produtos.scss */
 #other-products #other .other2 {
   margin: 160px 0;
 }
 @media screen and (max-width: 980px) {
-  /* line 114, ../sass/website/page/_outros-produtos.scss */
+  /* line 117, ../sass/website/page/_outros-produtos.scss */
   #other-products #other .other2 {
     margin: 70px 0;
   }
 }
 @media screen and (max-width: 980px) {
-  /* line 121, ../sass/website/page/_outros-produtos.scss */
+  /* line 124, ../sass/website/page/_outros-produtos.scss */
   #other-products #other .other2 .column-revese {
     display: flex;
     flex-direction: column-reverse;
   }
 }
-/* line 128, ../sass/website/page/_outros-produtos.scss */
+/* line 131, ../sass/website/page/_outros-produtos.scss */
 #other-products #other .other2 .column-revese .img2 .logo2 {
   background-repeat: no-repeat;
   background-size: auto;
@@ -970,14 +974,14 @@
   margin-bottom: 20px;
 }
 @media screen and (max-width: 980px) {
-  /* line 128, ../sass/website/page/_outros-produtos.scss */
+  /* line 131, ../sass/website/page/_outros-produtos.scss */
   #other-products #other .other2 .column-revese .img2 .logo2 {
     margin-top: 35px;
     margin-bottom: 0px;
     margin-left: 15px;
   }
 }
-/* line 140, ../sass/website/page/_outros-produtos.scss */
+/* line 143, ../sass/website/page/_outros-produtos.scss */
 #other-products #other .other2 .column-revese .img2 p {
   font-family: Poppins;
   font-size: 18px;
@@ -985,7 +989,7 @@
   font-weight: 400;
   margin-bottom: 37px;
 }
-/* line 147, ../sass/website/page/_outros-produtos.scss */
+/* line 150, ../sass/website/page/_outros-produtos.scss */
 #other-products #other .other2 .column-revese .img2 p span {
   font-family: Poppins;
   font-size: 18px;
@@ -993,12 +997,12 @@
   font-weight: 600;
 }
 @media screen and (max-width: 980px) {
-  /* line 155, ../sass/website/page/_outros-produtos.scss */
+  /* line 158, ../sass/website/page/_outros-produtos.scss */
   #other-products #other .other2 .column-revese .img2 .botao2 {
     text-align: center;
   }
 }
-/* line 161, ../sass/website/page/_outros-produtos.scss */
+/* line 164, ../sass/website/page/_outros-produtos.scss */
 #other-products #other .other2 .column-revese .img2 .botao2 .btn {
   font-family: Poppins;
   font-size: 18px;
@@ -1007,7 +1011,7 @@
   border: none;
   border-radius: 3px;
 }
-/* line 174, ../sass/website/page/_outros-produtos.scss */
+/* line 177, ../sass/website/page/_outros-produtos.scss */
 #other-products #other .other2 .text2 .image2 {
   background-repeat: no-repeat;
   background-size: contain;
@@ -1015,7 +1019,7 @@
   height: 370px;
 }
 @media screen and (max-width: 980px) {
-  /* line 174, ../sass/website/page/_outros-produtos.scss */
+  /* line 177, ../sass/website/page/_outros-produtos.scss */
   #other-products #other .other2 .text2 .image2 {
     height: 225px;
   }
