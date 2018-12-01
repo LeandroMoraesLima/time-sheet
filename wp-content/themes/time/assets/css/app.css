@@ -1775,6 +1775,17 @@
   padding: 15px;
 }
 
+/* line 113, ../sass/website/page/_cart.scss */
+p.alternative {
+  font-family: Poppins !important;
+  font-size: 17px !important;
+  color: #393939 !important;
+  font-weight: 500 !important;
+  line-height: 2.0em !important;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
 /* line 1, ../sass/website/page/_checkout.scss */
 #checkout {
   background-color: #e8e6e4;
